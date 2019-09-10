@@ -1,0 +1,365 @@
+2018-04-17 11:40:59 debug AnyEvent::Loop: Using CLOCK_MONOTONIC as timebase.
+2018-04-17 11:40:59 info  AnyEvent: Autoloaded model 'AnyEvent::Impl::Perl', using it.
+2018-04-17 11:40:59 debug AnyEvent::Base: using Time::HiRes for sub-second timing accuracy.
+2018-04-17 11:40:59 info  main: main perl v5.24.1 on msys, AnyEvent 7.13, Protocol::WebSocket 0.20
+2018-04-17 11:40:59 info  main: main started on 0.0.0.0:8888
+2018-04-17 11:40:59 info  main: main::stat.timer accepted sol/s = 0.0000
+2018-04-17 11:41:01 debug AnyEvent::Socket: (re)loading /etc/hosts.
+2018-04-17 11:41:01 info  main: main::stratum.on_connect connected to eu1-zcash.flypool.org:3333
+2018-04-17 11:41:01 debug main: main::stratum_tx send {"id":1,"method":"mining.subscribe","params":["jazecminer","eu1-zcash.flypool.org","3333"]}
+2018-04-17 11:41:02 debug main: main::stratum_read got {"error":null,"id":1,"result":["04f405da95","04f405da95"]}
+2018-04-17 11:41:02 info  main: main::stratum_subscribed nonce1 04f405da95
+2018-04-17 11:41:02 debug main: main::stratum_tx send {"id":2,"method":"mining.authorize","params":["t1Vm6PbF2ZkSLshWHKwLqxD7oU6TgEDX5nV.js","x"]}
+2018-04-17 11:41:02 debug main: main::stratum_read got {"error":null,"id":2,"result":true}
+2018-04-17 11:41:02 info  main: main::stratum_read authorized
+2018-04-17 11:41:02 debug main: main::stratum_read got {"id":null,"method":"mining.set_target","params":["0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"]}
+2018-04-17 11:41:02 info  main: main::stratum_got_target target 0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a
+2018-04-17 11:41:02 debug main: main::stratum_tx send {"id":3,"method":"mining.extranonce.subscribe","params":[]}
+2018-04-17 11:41:03 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["7e2ecafa6b4e38f54ffd","04000000","53fecbcf2e46d22511f39195deec93964ef5c5f948c58ed4dfce850900000000","a0944fea6e337b82af43df7ab89688d2c9addac48c2a5297949c8e9f07ab5b6c","0000000000000000000000000000000000000000000000000000000000000000","8623d65a","71c80e1c",true]}
+2018-04-17 11:41:03 info  main: main::stratum_got_job job 7e2ecafa6b4e38f54ffd 04000000 53fecbcf2e46d22511f39195deec93964ef5c5f948c58ed4dfce850900000000 a0944fea6e337b82af43df7ab89688d2c9addac48c2a5297949c8e9f07ab5b6c 0000000000000000000000000000000000000000000000000000000000000000 8623d65a 71c80e1c 1
+2018-04-17 11:41:58 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["5f920d2dbaaa61ae8e3a","04000000","55edd87cf47d875fb039f6799ed59db16286a30b8eb753c07b0d940000000000","ff06e13911ad6e74380fe971c8107b36c1ba4b44321a11de6eb7fb922f9c0375","0000000000000000000000000000000000000000000000000000000000000000","db23d65a","e01f0f1c",true]}
+2018-04-17 11:41:58 info  main: main::stratum_got_job job 5f920d2dbaaa61ae8e3a 04000000 55edd87cf47d875fb039f6799ed59db16286a30b8eb753c07b0d940000000000 ff06e13911ad6e74380fe971c8107b36c1ba4b44321a11de6eb7fb922f9c0375 0000000000000000000000000000000000000000000000000000000000000000 db23d65a e01f0f1c 1
+2018-04-17 11:42:30 debug AnyEvent::Loop: Using CLOCK_MONOTONIC as timebase.
+2018-04-17 11:42:30 info  AnyEvent: Autoloaded model 'AnyEvent::Impl::Perl', using it.
+2018-04-17 11:42:30 debug AnyEvent::Base: using Time::HiRes for sub-second timing accuracy.
+2018-04-17 11:42:30 info  main: main perl v5.24.1 on msys, AnyEvent 7.13, Protocol::WebSocket 0.20
+2018-04-17 11:42:30 info  main: main started on 0.0.0.0:8888
+2018-04-17 11:42:30 info  main: main::stat.timer accepted sol/s = 0.0000
+2018-04-17 11:42:32 debug AnyEvent::Socket: (re)loading /etc/hosts.
+2018-04-17 11:42:32 info  main: main::stratum.on_connect connected to eu1-zcash.flypool.org:3333
+2018-04-17 11:42:32 debug main: main::stratum_tx send {"id":1,"method":"mining.subscribe","params":["jazecminer","eu1-zcash.flypool.org","3333"]}
+2018-04-17 11:42:32 debug main: main::stratum_read got {"error":null,"id":1,"result":["048808c106","048808c106"]}
+2018-04-17 11:42:32 info  main: main::stratum_subscribed nonce1 048808c106
+2018-04-17 11:42:32 debug main: main::stratum_tx send {"id":2,"method":"mining.authorize","params":["t1Vm6PbF2ZkSLshWHKwLqxD7oU6TgEDX5nV.js","x"]}
+2018-04-17 11:42:33 debug main: main::stratum_read got {"error":null,"id":2,"result":true}
+2018-04-17 11:42:33 info  main: main::stratum_read authorized
+2018-04-17 11:42:33 debug main: main::stratum_read got {"id":null,"method":"mining.set_target","params":["0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"]}
+2018-04-17 11:42:33 info  main: main::stratum_got_target target 0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a
+2018-04-17 11:42:33 debug main: main::stratum_tx send {"id":3,"method":"mining.extranonce.subscribe","params":[]}
+2018-04-17 11:42:34 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["3a28e7411ee86ad647a9","04000000","55edd87cf47d875fb039f6799ed59db16286a30b8eb753c07b0d940000000000","ff06e13911ad6e74380fe971c8107b36c1ba4b44321a11de6eb7fb922f9c0375","0000000000000000000000000000000000000000000000000000000000000000","db23d65a","e01f0f1c",true]}
+2018-04-17 11:42:34 info  main: main::stratum_got_job job 3a28e7411ee86ad647a9 04000000 55edd87cf47d875fb039f6799ed59db16286a30b8eb753c07b0d940000000000 ff06e13911ad6e74380fe971c8107b36c1ba4b44321a11de6eb7fb922f9c0375 0000000000000000000000000000000000000000000000000000000000000000 db23d65a e01f0f1c 1
+2018-04-17 11:42:36 debug main: main::httpd.cb 127.0.0.1:60243 connected
+2018-04-17 11:42:36 debug main: main::http 127.0.0.1:60243 get index.html
+2018-04-17 11:42:36 info  main: main::http 127.0.0.1:60243 static index.html size 3606
+2018-04-17 11:42:36 debug main: main::httpd.on_eof 127.0.0.1:60243 disconnected
+2018-04-17 11:42:36 debug main: main::httpd.cb 127.0.0.1:60244 connected
+2018-04-17 11:42:36 debug main: main::http 127.0.0.1:60244 get jazecminer.js
+2018-04-17 11:42:36 info  main: main::http 127.0.0.1:60244 static jazecminer.js size 83469
+2018-04-17 11:42:36 debug main: main::httpd.on_eof 127.0.0.1:60244 disconnected
+2018-04-17 11:42:36 debug main: main::httpd.cb 127.0.0.1:60246 connected
+2018-04-17 11:42:36 debug main: main::http 127.0.0.1:60246 get jazecminer.wasm
+2018-04-17 11:42:36 info  main: main::http 127.0.0.1:60246 static jazecminer.wasm size 26491
+2018-04-17 11:42:36 debug main: main::httpd.on_eof 127.0.0.1:60246 disconnected
+2018-04-17 11:42:36 debug main: main::httpd.cb 127.0.0.1:60247 connected
+2018-04-17 11:42:36 debug main: main::http 127.0.0.1:60247 get favicon.ico
+2018-04-17 11:42:36 info  main: main::http 127.0.0.1:60247 static favicon.ico size 318
+2018-04-17 11:42:36 debug main: main::httpd.on_eof 127.0.0.1:60247 disconnected
+2018-04-17 11:42:36 debug main: main::httpd.cb 127.0.0.1:60249 connected
+2018-04-17 11:42:36 debug main: main::http 127.0.0.1:60249 get ws
+2018-04-17 11:42:36 debug main: main::websocket_onread 127.0.0.1:60249 opened
+2018-04-17 11:42:36 debug main: main::websocket_tx 127.0.0.1:60249 send {"job":"0400000055edd87cf47d875fb039f6799ed59db16286a30b8eb753c07b0d940000000000ff06e13911ad6e74380fe971c8107b36c1ba4b44321a11de6eb7fb922f9c03750000000000000000000000000000000000000000000000000000000000000000db23d65ae01f0f1c048808c1067f000001eb59","target":"0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"}
+2018-04-17 11:42:36 debug main: main::httpd.cb 127.0.0.1:60250 connected
+2018-04-17 11:42:37 debug main: main::httpd.cb 127.0.0.1:60251 connected
+2018-04-17 11:42:37 debug main: main::httpd.cb 127.0.0.1:60252 connected
+2018-04-17 11:42:42 error main: main::httpd.on_error 127.0.0.1:60250 error Broken pipe
+2018-04-17 11:42:42 error main: main::httpd.on_error 127.0.0.1:60251 error Broken pipe
+2018-04-17 11:42:43 error main: main::httpd.on_error 127.0.0.1:60252 error Broken pipe
+2018-04-17 11:43:00 debug main: main::websocket_tx 127.0.0.1:60249 send {"keepalive":1523983380}
+2018-04-17 11:52:01 debug AnyEvent::Loop: Using CLOCK_MONOTONIC as timebase.
+2018-04-17 11:52:01 info  AnyEvent: Autoloaded model 'AnyEvent::Impl::Perl', using it.
+2018-04-17 11:52:01 debug AnyEvent::Base: using Time::HiRes for sub-second timing accuracy.
+2018-04-17 11:52:01 info  main: main perl v5.24.1 on msys, AnyEvent 7.13, Protocol::WebSocket 0.20
+2018-04-17 11:52:01 info  main: main started on 0.0.0.0:8888
+2018-04-17 11:52:01 info  main: main::stat.timer accepted sol/s = 0.0000
+2018-04-17 11:52:03 debug AnyEvent::Socket: (re)loading /etc/hosts.
+2018-04-17 11:52:03 info  main: main::stratum.on_connect connected to eu1-zcash.flypool.org:3333
+2018-04-17 11:52:03 debug main: main::stratum_tx send {"id":1,"method":"mining.subscribe","params":["jazecminer","eu1-zcash.flypool.org","3333"]}
+2018-04-17 11:52:03 debug main: main::stratum_read got {"error":null,"id":1,"result":["0640911daf","0640911daf"]}
+2018-04-17 11:52:03 info  main: main::stratum_subscribed nonce1 0640911daf
+2018-04-17 11:52:03 debug main: main::stratum_tx send {"id":2,"method":"mining.authorize","params":["t1Vm6PbF2ZkSLshWHKwLqxD7oU6TgEDX5nV.js","x"]}
+2018-04-17 11:52:04 debug main: main::stratum_read got {"error":null,"id":2,"result":true}
+2018-04-17 11:52:04 info  main: main::stratum_read authorized
+2018-04-17 11:52:04 debug main: main::stratum_read got {"id":null,"method":"mining.set_target","params":["0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"]}
+2018-04-17 11:52:04 info  main: main::stratum_got_target target 0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a
+2018-04-17 11:52:04 debug main: main::stratum_tx send {"id":3,"method":"mining.extranonce.subscribe","params":[]}
+2018-04-17 11:52:05 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["e669ee3cb668717bb593","04000000","c1e0553393ff0ee223dc11c9f9a7a0797169cea9a9729ba934aa210300000000","01aab4fef86dc666fb8070d562d06731ba0d684b612655377341716b410e6b47","0000000000000000000000000000000000000000000000000000000000000000","dd25d65a","491d0f1c",true]}
+2018-04-17 11:52:05 info  main: main::stratum_got_job job e669ee3cb668717bb593 04000000 c1e0553393ff0ee223dc11c9f9a7a0797169cea9a9729ba934aa210300000000 01aab4fef86dc666fb8070d562d06731ba0d684b612655377341716b410e6b47 0000000000000000000000000000000000000000000000000000000000000000 dd25d65a 491d0f1c 1
+2018-04-17 11:52:07 debug main: main::httpd.cb 127.0.0.1:60362 connected
+2018-04-17 11:52:07 debug main: main::httpd.cb 127.0.0.1:60363 connected
+2018-04-17 11:52:07 debug main: main::http 127.0.0.1:60362 get index.html
+2018-04-17 11:52:07 info  main: main::http 127.0.0.1:60362 static index.html size 3606
+2018-04-17 11:52:07 debug main: main::httpd.on_eof 127.0.0.1:60362 disconnected
+2018-04-17 11:52:07 debug main: main::http 127.0.0.1:60363 get jazecminer.js
+2018-04-17 11:52:07 info  main: main::http 127.0.0.1:60363 static jazecminer.js size 86789
+2018-04-17 11:52:07 debug main: main::httpd.on_eof 127.0.0.1:60363 disconnected
+2018-04-17 11:52:07 debug main: main::httpd.cb 127.0.0.1:60364 connected
+2018-04-17 11:52:07 debug main: main::http 127.0.0.1:60364 get jazecminer.base_profiled.wasm
+2018-04-17 11:52:07 error main: main::http 127.0.0.1:60364 bad request jazecminer.base_profiled.wasm
+2018-04-17 11:52:07 debug main: main::httpd.on_eof 127.0.0.1:60364 disconnected
+2018-04-17 11:52:07 debug main: main::httpd.cb 127.0.0.1:60365 connected
+2018-04-17 11:52:07 debug main: main::http 127.0.0.1:60365 get favicon.ico
+2018-04-17 11:52:07 info  main: main::http 127.0.0.1:60365 static favicon.ico size 318
+2018-04-17 11:52:07 debug main: main::httpd.on_eof 127.0.0.1:60365 disconnected
+2018-04-17 11:52:07 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["bf61359636f59eba65dc","04000000","5fe5a1642438f9bf1b77e370a2d52dc2b939be059122a93dec2a160100000000","d60d86d152407915a6e6c458d596a819520cbaf5e3d1f91cf2969582978ff113","0000000000000000000000000000000000000000000000000000000000000000","3626d65a","90ae0e1c",true]}
+2018-04-17 11:52:07 info  main: main::stratum_got_job job bf61359636f59eba65dc 04000000 5fe5a1642438f9bf1b77e370a2d52dc2b939be059122a93dec2a160100000000 d60d86d152407915a6e6c458d596a819520cbaf5e3d1f91cf2969582978ff113 0000000000000000000000000000000000000000000000000000000000000000 3626d65a 90ae0e1c 1
+2018-04-17 11:55:02 debug AnyEvent::Loop: Using CLOCK_MONOTONIC as timebase.
+2018-04-17 11:55:02 info  AnyEvent: Autoloaded model 'AnyEvent::Impl::Perl', using it.
+2018-04-17 11:55:02 debug AnyEvent::Base: using Time::HiRes for sub-second timing accuracy.
+2018-04-17 11:55:02 info  main: main perl v5.24.1 on msys, AnyEvent 7.13, Protocol::WebSocket 0.20
+2018-04-17 11:55:02 info  main: main started on 0.0.0.0:8888
+2018-04-17 11:55:02 info  main: main::stat.timer accepted sol/s = 0.0000
+2018-04-17 11:55:03 debug main: main::httpd.cb 127.0.0.1:60368 connected
+2018-04-17 11:55:03 debug main: main::http 127.0.0.1:60368 get index.html
+2018-04-17 11:55:03 info  main: main::http 127.0.0.1:60368 static index.html size 3606
+2018-04-17 11:55:03 debug main: main::httpd.on_eof 127.0.0.1:60368 disconnected
+2018-04-17 11:55:03 debug main: main::httpd.cb 127.0.0.1:60369 connected
+2018-04-17 11:55:03 debug main: main::http 127.0.0.1:60369 get jazecminer.js
+2018-04-17 11:55:03 info  main: main::http 127.0.0.1:60369 static jazecminer.js size 86780
+2018-04-17 11:55:03 debug main: main::httpd.on_eof 127.0.0.1:60369 disconnected
+2018-04-17 11:55:03 debug main: main::httpd.cb 127.0.0.1:60370 connected
+2018-04-17 11:55:03 debug main: main::http 127.0.0.1:60370 get jazecminer.base.wasm
+2018-04-17 11:55:03 info  main: main::http 127.0.0.1:60370 static jazecminer.base.wasm size 25702
+2018-04-17 11:55:03 debug main: main::httpd.on_eof 127.0.0.1:60370 disconnected
+2018-04-17 11:55:03 debug main: main::httpd.cb 127.0.0.1:60371 connected
+2018-04-17 11:55:03 debug main: main::http 127.0.0.1:60371 get favicon.ico
+2018-04-17 11:55:03 info  main: main::http 127.0.0.1:60371 static favicon.ico size 318
+2018-04-17 11:55:03 debug main: main::httpd.on_eof 127.0.0.1:60371 disconnected
+2018-04-17 11:55:03 debug main: main::httpd.cb 127.0.0.1:60372 connected
+2018-04-17 11:55:03 debug main: main::http 127.0.0.1:60372 get ws
+2018-04-17 11:55:03 debug main: main::websocket_onread 127.0.0.1:60372 opened
+2018-04-17 11:55:03 debug main: main::websocket_tx 127.0.0.1:60372 send {"job":"?","target":"?"}
+2018-04-17 11:55:04 debug AnyEvent::Socket: (re)loading /etc/hosts.
+2018-04-17 11:55:04 info  main: main::stratum.on_connect connected to eu1-zcash.flypool.org:3333
+2018-04-17 11:55:04 debug main: main::stratum_tx send {"id":1,"method":"mining.subscribe","params":["jazecminer","eu1-zcash.flypool.org","3333"]}
+2018-04-17 11:55:04 debug main: main::stratum_read got {"error":null,"id":1,"result":["01351ebd87","01351ebd87"]}
+2018-04-17 11:55:04 info  main: main::stratum_subscribed nonce1 01351ebd87
+2018-04-17 11:55:04 debug main: main::stratum_tx send {"id":2,"method":"mining.authorize","params":["t1Vm6PbF2ZkSLshWHKwLqxD7oU6TgEDX5nV.js","x"]}
+2018-04-17 11:55:04 debug main: main::stratum_read got {"error":null,"id":2,"result":true}
+2018-04-17 11:55:04 info  main: main::stratum_read authorized
+2018-04-17 11:55:04 debug main: main::stratum_read got {"id":null,"method":"mining.set_target","params":["0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"]}
+2018-04-17 11:55:04 info  main: main::stratum_got_target target 0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a
+2018-04-17 11:55:04 debug main: main::stratum_tx send {"id":3,"method":"mining.extranonce.subscribe","params":[]}
+2018-04-17 11:55:05 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["6b1667f114e206df0d4e","04000000","3a610336b0c7df8d1161f2eb58a51f870af13e948f165f904fe9d80000000000","578ab1a62449c79003d8b82f0d6e4fd5cd8d2f0f1089e45ce850359bad7589bf","0000000000000000000000000000000000000000000000000000000000000000","ac26d65a","daa10e1c",true]}
+2018-04-17 11:55:05 info  main: main::stratum_got_job job 6b1667f114e206df0d4e 04000000 3a610336b0c7df8d1161f2eb58a51f870af13e948f165f904fe9d80000000000 578ab1a62449c79003d8b82f0d6e4fd5cd8d2f0f1089e45ce850359bad7589bf 0000000000000000000000000000000000000000000000000000000000000000 ac26d65a daa10e1c 1
+2018-04-17 11:55:05 debug main: main::websocket_tx 127.0.0.1:60372 send {"job":"040000003a610336b0c7df8d1161f2eb58a51f870af13e948f165f904fe9d80000000000578ab1a62449c79003d8b82f0d6e4fd5cd8d2f0f1089e45ce850359bad7589bf0000000000000000000000000000000000000000000000000000000000000000ac26d65adaa10e1c01351ebd877f000001ebd4","target":"0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"}
+2018-04-17 11:57:11 debug AnyEvent::Loop: Using CLOCK_MONOTONIC as timebase.
+2018-04-17 11:57:11 info  AnyEvent: Autoloaded model 'AnyEvent::Impl::Perl', using it.
+2018-04-17 11:57:11 debug AnyEvent::Base: using Time::HiRes for sub-second timing accuracy.
+2018-04-17 11:57:11 info  main: main perl v5.24.1 on msys, AnyEvent 7.13, Protocol::WebSocket 0.20
+2018-04-17 11:57:11 info  main: main started on 0.0.0.0:8888
+2018-04-17 11:57:11 info  main: main::stat.timer accepted sol/s = 0.0000
+2018-04-17 11:57:13 debug AnyEvent::Socket: (re)loading /etc/hosts.
+2018-04-17 11:57:13 debug main: main::httpd.cb 127.0.0.1:60383 connected
+2018-04-17 11:57:13 debug main: main::httpd.cb 127.0.0.1:60385 connected
+2018-04-17 11:57:13 debug main: main::http 127.0.0.1:60383 get favicon.ico
+2018-04-17 11:57:13 info  main: main::http 127.0.0.1:60383 static favicon.ico size 318
+2018-04-17 11:57:13 debug main: main::httpd.on_eof 127.0.0.1:60383 disconnected
+2018-04-17 11:57:13 debug main: main::httpd.cb 127.0.0.1:60386 connected
+2018-04-17 11:57:13 debug main: main::http 127.0.0.1:60386 get ws
+2018-04-17 11:57:13 debug main: main::websocket_onread 127.0.0.1:60386 opened
+2018-04-17 11:57:13 debug main: main::websocket_tx 127.0.0.1:60386 send {"job":"?","target":"?"}
+2018-04-17 11:57:13 info  main: main::stratum.on_connect connected to eu1-zcash.flypool.org:3333
+2018-04-17 11:57:13 debug main: main::stratum_tx send {"id":1,"method":"mining.subscribe","params":["jazecminer","eu1-zcash.flypool.org","3333"]}
+2018-04-17 11:57:14 debug main: main::stratum_read got {"error":null,"id":1,"result":["06ad3f25be","06ad3f25be"]}
+2018-04-17 11:57:14 info  main: main::stratum_subscribed nonce1 06ad3f25be
+2018-04-17 11:57:14 debug main: main::stratum_tx send {"id":2,"method":"mining.authorize","params":["t1Vm6PbF2ZkSLshWHKwLqxD7oU6TgEDX5nV.js","x"]}
+2018-04-17 11:57:14 debug main: main::stratum_read got {"error":null,"id":2,"result":true}
+2018-04-17 11:57:14 info  main: main::stratum_read authorized
+2018-04-17 11:57:14 debug main: main::stratum_read got {"id":null,"method":"mining.set_target","params":["0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"]}
+2018-04-17 11:57:14 info  main: main::stratum_got_target target 0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a
+2018-04-17 11:57:14 debug main: main::stratum_tx send {"id":3,"method":"mining.extranonce.subscribe","params":[]}
+2018-04-17 11:57:15 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["1be6b6f154fa1e30976c","04000000","3a610336b0c7df8d1161f2eb58a51f870af13e948f165f904fe9d80000000000","a1a9c49b0c515570beff80f6c12f9f375eefc9c7ae9a2ef1d3f564566e753348","0000000000000000000000000000000000000000000000000000000000000000","3c27d65a","daa10e1c",true]}
+2018-04-17 11:57:15 info  main: main::stratum_got_job job 1be6b6f154fa1e30976c 04000000 3a610336b0c7df8d1161f2eb58a51f870af13e948f165f904fe9d80000000000 a1a9c49b0c515570beff80f6c12f9f375eefc9c7ae9a2ef1d3f564566e753348 0000000000000000000000000000000000000000000000000000000000000000 3c27d65a daa10e1c 1
+2018-04-17 11:57:15 debug main: main::websocket_tx 127.0.0.1:60386 send {"job":"040000003a610336b0c7df8d1161f2eb58a51f870af13e948f165f904fe9d80000000000a1a9c49b0c515570beff80f6c12f9f375eefc9c7ae9a2ef1d3f564566e75334800000000000000000000000000000000000000000000000000000000000000003c27d65adaa10e1c06ad3f25be7f000001ebe2","target":"0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"}
+2018-04-17 11:57:19 error main: main::httpd.on_error 127.0.0.1:60385 error Broken pipe
+2018-04-17 11:57:32 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["20c18665713e864da733","04000000","d5e9919e13e6736d5a37ebb462fb92a51eafefc632d86a8ec5314f0000000000","1f4d7534e5e50923febf134f6aa95b244c5ed3e204eb43927215d9f5d7e10775","0000000000000000000000000000000000000000000000000000000000000000","7b27d65a","558b0e1c",true]}
+2018-04-17 11:57:32 info  main: main::stratum_got_job job 20c18665713e864da733 04000000 d5e9919e13e6736d5a37ebb462fb92a51eafefc632d86a8ec5314f0000000000 1f4d7534e5e50923febf134f6aa95b244c5ed3e204eb43927215d9f5d7e10775 0000000000000000000000000000000000000000000000000000000000000000 7b27d65a 558b0e1c 1
+2018-04-17 11:57:32 debug main: main::websocket_tx 127.0.0.1:60386 send {"job":"04000000d5e9919e13e6736d5a37ebb462fb92a51eafefc632d86a8ec5314f00000000001f4d7534e5e50923febf134f6aa95b244c5ed3e204eb43927215d9f5d7e1077500000000000000000000000000000000000000000000000000000000000000007b27d65a558b0e1c06ad3f25be7f000001ebe2","target":"0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"}
+2018-04-17 11:57:41 debug main: main::websocket_tx 127.0.0.1:60386 send {"keepalive":1523984261}
+2018-04-17 11:57:58 debug main: main::httpd.cb 127.0.0.1:60402 connected
+2018-04-17 11:57:58 debug main: main::http 127.0.0.1:60402 get index.html
+2018-04-17 11:57:58 info  main: main::http 127.0.0.1:60402 static index.html size 3606
+2018-04-17 11:57:58 debug main: main::httpd.on_eof 127.0.0.1:60402 disconnected
+2018-04-17 11:57:59 debug main: main::httpd.cb 127.0.0.1:60403 connected
+2018-04-17 11:57:59 debug main: main::http 127.0.0.1:60403 get jazecminer.js
+2018-04-17 11:57:59 info  main: main::http 127.0.0.1:60403 static jazecminer.js size 86789
+2018-04-17 11:57:59 debug main: main::httpd.on_eof 127.0.0.1:60403 disconnected
+2018-04-17 11:57:59 debug main: main::httpd.cb 127.0.0.1:60404 connected
+2018-04-17 11:57:59 debug main: main::http 127.0.0.1:60404 get jazecminer.base_profiled.wasm
+2018-04-17 11:57:59 error main: main::http 127.0.0.1:60404 bad request jazecminer.base_profiled.wasm
+2018-04-17 11:57:59 debug main: main::httpd.on_eof 127.0.0.1:60404 disconnected
+2018-04-17 11:57:59 debug main: main::httpd.cb 127.0.0.1:60405 connected
+2018-04-17 11:57:59 debug main: main::http 127.0.0.1:60405 get favicon.ico
+2018-04-17 11:57:59 info  main: main::http 127.0.0.1:60405 static favicon.ico size 318
+2018-04-17 11:57:59 debug main: main::httpd.on_eof 127.0.0.1:60405 disconnected
+2018-04-17 11:58:11 debug main: main::websocket_tx 127.0.0.1:60386 send {"keepalive":1523984291}
+2018-04-17 11:58:18 debug main: main::httpd.on_eof 127.0.0.1:60386 disconnected
+2018-04-17 11:42:41 debug AnyEvent::Loop: Using CLOCK_MONOTONIC as timebase.
+2018-04-17 11:42:41 info  AnyEvent: Autoloaded model 'AnyEvent::Impl::Perl', using it.
+2018-04-17 11:42:41 debug AnyEvent::Base: using Time::HiRes for sub-second timing accuracy.
+2018-04-17 11:42:41 info  main: main perl v5.24.1 on msys, AnyEvent 7.13, Protocol::WebSocket 0.20
+2018-04-17 11:42:41 info  main: main started on 0.0.0.0:8888
+2018-04-17 11:42:41 info  main: main::stat.timer accepted sol/s = 0.0000
+2018-04-17 11:42:42 debug main: main::httpd.cb 127.0.0.1:60479 connected
+2018-04-17 11:42:42 debug main: main::http 127.0.0.1:60479 get index.html
+2018-04-17 11:42:42 info  main: main::http 127.0.0.1:60479 static index.html size 3606
+2018-04-17 11:42:42 debug main: main::httpd.on_eof 127.0.0.1:60479 disconnected
+2018-04-17 11:42:42 debug main: main::httpd.cb 127.0.0.1:60480 connected
+2018-04-17 11:42:42 debug main: main::http 127.0.0.1:60480 get jazecminer.js
+2018-04-17 11:42:42 info  main: main::http 127.0.0.1:60480 static jazecminer.js size 86789
+2018-04-17 11:42:42 debug main: main::httpd.on_eof 127.0.0.1:60480 disconnected
+2018-04-17 11:42:42 debug main: main::httpd.cb 127.0.0.1:60481 connected
+2018-04-17 11:42:42 debug main: main::http 127.0.0.1:60481 get jazecminer.base.profiled.wasm
+2018-04-17 11:42:42 info  main: main::http 127.0.0.1:60481 static jazecminer.base.profiled.wasm size 36756
+2018-04-17 11:42:42 debug main: main::httpd.on_eof 127.0.0.1:60481 disconnected
+2018-04-17 11:42:43 debug main: main::httpd.cb 127.0.0.1:60482 connected
+2018-04-17 11:42:43 debug main: main::http 127.0.0.1:60482 get ws
+2018-04-17 11:42:43 debug main: main::websocket_onread 127.0.0.1:60482 opened
+2018-04-17 11:42:43 debug main: main::websocket_tx 127.0.0.1:60482 send {"job":"?","target":"?"}
+2018-04-17 11:42:43 debug AnyEvent::Socket: (re)loading /etc/hosts.
+2018-04-17 11:42:43 info  main: main::stratum.on_connect connected to eu1-zcash.flypool.org:3333
+2018-04-17 11:42:43 debug main: main::stratum_tx send {"id":1,"method":"mining.subscribe","params":["jazecminer","eu1-zcash.flypool.org","3333"]}
+2018-04-17 11:42:43 debug main: main::stratum_read got {"error":null,"id":1,"result":["06fce6d5dc","06fce6d5dc"]}
+2018-04-17 11:42:43 info  main: main::stratum_subscribed nonce1 06fce6d5dc
+2018-04-17 11:42:43 debug main: main::stratum_tx send {"id":2,"method":"mining.authorize","params":["t1Vm6PbF2ZkSLshWHKwLqxD7oU6TgEDX5nV.js","x"]}
+2018-04-17 11:42:44 debug main: main::stratum_read got {"error":null,"id":2,"result":true}
+2018-04-17 11:42:44 info  main: main::stratum_read authorized
+2018-04-17 11:42:44 debug main: main::stratum_read got {"id":null,"method":"mining.set_target","params":["0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"]}
+2018-04-17 11:42:44 info  main: main::stratum_got_target target 0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a
+2018-04-17 11:42:44 debug main: main::stratum_tx send {"id":3,"method":"mining.extranonce.subscribe","params":[]}
+2018-04-17 11:42:45 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["b0d1e1327d70d1d8326e","04000000","4a4816c9e59e576111153b7e92f2bb7e05bb1d9cf25c566ebf4e040200000000","c67074d657cd83817f39ef6b56e52855275e2ce3f00512af3dabc624c2bba708","0000000000000000000000000000000000000000000000000000000000000000","e828d65a","a21a0f1c",true]}
+2018-04-17 11:42:45 info  main: main::stratum_got_job job b0d1e1327d70d1d8326e 04000000 4a4816c9e59e576111153b7e92f2bb7e05bb1d9cf25c566ebf4e040200000000 c67074d657cd83817f39ef6b56e52855275e2ce3f00512af3dabc624c2bba708 0000000000000000000000000000000000000000000000000000000000000000 e828d65a a21a0f1c 1
+2018-04-17 11:42:45 debug main: main::websocket_tx 127.0.0.1:60482 send {"job":"040000004a4816c9e59e576111153b7e92f2bb7e05bb1d9cf25c566ebf4e040200000000c67074d657cd83817f39ef6b56e52855275e2ce3f00512af3dabc624c2bba7080000000000000000000000000000000000000000000000000000000000000000e828d65aa21a0f1c06fce6d5dc7f000001ec42","target":"0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"}
+2018-04-17 11:43:11 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983391}
+2018-04-17 11:43:41 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983421}
+2018-04-17 11:43:59 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["09f8d656a0ef0a5a4d4a","04000000","bb889307788341768c98896ffca1246bf1c9b6c1e484f906735fa50100000000","2fe9626b9df3fb027f37a1cfd03e6cdf2ee96c898279652e93df4a21dd2e64af","0000000000000000000000000000000000000000000000000000000000000000","7129d65a","82140f1c",true]}
+2018-04-17 11:43:59 info  main: main::stratum_got_job job 09f8d656a0ef0a5a4d4a 04000000 bb889307788341768c98896ffca1246bf1c9b6c1e484f906735fa50100000000 2fe9626b9df3fb027f37a1cfd03e6cdf2ee96c898279652e93df4a21dd2e64af 0000000000000000000000000000000000000000000000000000000000000000 7129d65a 82140f1c 1
+2018-04-17 11:43:59 debug main: main::websocket_tx 127.0.0.1:60482 send {"job":"04000000bb889307788341768c98896ffca1246bf1c9b6c1e484f906735fa501000000002fe9626b9df3fb027f37a1cfd03e6cdf2ee96c898279652e93df4a21dd2e64af00000000000000000000000000000000000000000000000000000000000000007129d65a82140f1c06fce6d5dc7f000001ec42","target":"0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"}
+2018-04-17 11:44:11 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983451}
+2018-04-17 11:44:41 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983481}
+2018-04-17 11:44:47 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["2e001177fc64bf1ea991","04000000","6e82008376135f28f019540b834d1d14ece49197ae02c40074e3950d00000000","1449d02db96c2a233495d2f25392cc86d123135e64312cd64420c72494b24fb7","0000000000000000000000000000000000000000000000000000000000000000","a229d65a","4b370f1c",true]}
+2018-04-17 11:44:47 info  main: main::stratum_got_job job 2e001177fc64bf1ea991 04000000 6e82008376135f28f019540b834d1d14ece49197ae02c40074e3950d00000000 1449d02db96c2a233495d2f25392cc86d123135e64312cd64420c72494b24fb7 0000000000000000000000000000000000000000000000000000000000000000 a229d65a 4b370f1c 1
+2018-04-17 11:44:47 debug main: main::websocket_tx 127.0.0.1:60482 send {"job":"040000006e82008376135f28f019540b834d1d14ece49197ae02c40074e3950d000000001449d02db96c2a233495d2f25392cc86d123135e64312cd64420c72494b24fb70000000000000000000000000000000000000000000000000000000000000000a229d65a4b370f1c06fce6d5dc7f000001ec42","target":"0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"}
+2018-04-17 11:45:10 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983510}
+2018-04-17 11:45:40 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983540}
+2018-04-17 11:46:10 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983570}
+2018-04-17 11:46:40 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983600}
+2018-04-17 11:47:10 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983630}
+2018-04-17 11:47:33 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["3dee5daf28c309f6f9f6","04000000","6e82008376135f28f019540b834d1d14ece49197ae02c40074e3950d00000000","f8fe7a2901c7304fc45172dd4ca60ceae61b85e952a4353655181d0f2dfe8abd","0000000000000000000000000000000000000000000000000000000000000000","492ad65a","4b370f1c",true]}
+2018-04-17 11:47:33 info  main: main::stratum_got_job job 3dee5daf28c309f6f9f6 04000000 6e82008376135f28f019540b834d1d14ece49197ae02c40074e3950d00000000 f8fe7a2901c7304fc45172dd4ca60ceae61b85e952a4353655181d0f2dfe8abd 0000000000000000000000000000000000000000000000000000000000000000 492ad65a 4b370f1c 1
+2018-04-17 11:47:33 debug main: main::websocket_tx 127.0.0.1:60482 send {"job":"040000006e82008376135f28f019540b834d1d14ece49197ae02c40074e3950d00000000f8fe7a2901c7304fc45172dd4ca60ceae61b85e952a4353655181d0f2dfe8abd0000000000000000000000000000000000000000000000000000000000000000492ad65a4b370f1c06fce6d5dc7f000001ec42","target":"0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"}
+2018-04-17 11:47:40 info  main: main::stat.timer accepted sol/s = 0.0000
+2018-04-17 11:47:40 info  main: main::stat.timer http connects = 4
+2018-04-17 11:47:40 info  main: main::stat.timer http requests static = 3
+2018-04-17 11:47:40 info  main: main::stat.timer http requests ws = 1
+2018-04-17 11:47:40 info  main: main::stat.timer http sessions = 1
+2018-04-17 11:47:40 info  main: main::stat.timer http websockets = 1
+2018-04-17 11:47:40 info  main: main::stat.timer stratum jobs received = 4
+2018-04-17 11:47:40 info  main: main::stat.timer unique ip = 1
+2018-04-17 11:47:40 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983660}
+2018-04-17 11:48:10 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983690}
+2018-04-17 11:48:18 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["65ebe758e857a1213abc","04000000","6510b296f3707757b148ac97ba27346dce9a8016ceb7a4e5904c2d0b00000000","712592ee026ac4d571acd5fde175e6543ae8685f9b90131bb71665dc31b60fef","0000000000000000000000000000000000000000000000000000000000000000","752ad65a","70970f1c",true]}
+2018-04-17 11:48:18 info  main: main::stratum_got_job job 65ebe758e857a1213abc 04000000 6510b296f3707757b148ac97ba27346dce9a8016ceb7a4e5904c2d0b00000000 712592ee026ac4d571acd5fde175e6543ae8685f9b90131bb71665dc31b60fef 0000000000000000000000000000000000000000000000000000000000000000 752ad65a 70970f1c 1
+2018-04-17 11:48:18 debug main: main::websocket_tx 127.0.0.1:60482 send {"job":"040000006510b296f3707757b148ac97ba27346dce9a8016ceb7a4e5904c2d0b00000000712592ee026ac4d571acd5fde175e6543ae8685f9b90131bb71665dc31b60fef0000000000000000000000000000000000000000000000000000000000000000752ad65a70970f1c06fce6d5dc7f000001ec42","target":"0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"}
+2018-04-17 11:48:24 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["9481d61c942daf3aaa79","04000000","1100d16f1d88f0b83d9c4ac665ef8bd33d289e2b25e7a353a692dc0e00000000","bb73e9f7c2ed383f5b52c4c5f2133345298cb75f35b928220dc18d85cf59f7fc","0000000000000000000000000000000000000000000000000000000000000000","7b2ad65a","29840f1c",true]}
+2018-04-17 11:48:24 info  main: main::stratum_got_job job 9481d61c942daf3aaa79 04000000 1100d16f1d88f0b83d9c4ac665ef8bd33d289e2b25e7a353a692dc0e00000000 bb73e9f7c2ed383f5b52c4c5f2133345298cb75f35b928220dc18d85cf59f7fc 0000000000000000000000000000000000000000000000000000000000000000 7b2ad65a 29840f1c 1
+2018-04-17 11:48:24 debug main: main::websocket_tx 127.0.0.1:60482 send {"job":"040000001100d16f1d88f0b83d9c4ac665ef8bd33d289e2b25e7a353a692dc0e00000000bb73e9f7c2ed383f5b52c4c5f2133345298cb75f35b928220dc18d85cf59f7fc00000000000000000000000000000000000000000000000000000000000000007b2ad65a29840f1c06fce6d5dc7f000001ec42","target":"0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"}
+2018-04-17 11:48:40 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983720}
+2018-04-17 11:49:10 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983750}
+2018-04-17 11:49:40 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983780}
+2018-04-17 11:50:10 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983810}
+2018-04-17 11:50:40 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983840}
+2018-04-17 11:50:55 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["04b5787611b45452318f","04000000","70a9818ef3573ccdb696f7860df98d1cdf18ffc4863cfc516ae8db0200000000","ab5a0c0e2a27ee63245614a9b4b2ef094afd6f84f03ea6011c0abc796a3623ee","0000000000000000000000000000000000000000000000000000000000000000","132bd65a","734b0f1c",true]}
+2018-04-17 11:50:55 info  main: main::stratum_got_job job 04b5787611b45452318f 04000000 70a9818ef3573ccdb696f7860df98d1cdf18ffc4863cfc516ae8db0200000000 ab5a0c0e2a27ee63245614a9b4b2ef094afd6f84f03ea6011c0abc796a3623ee 0000000000000000000000000000000000000000000000000000000000000000 132bd65a 734b0f1c 1
+2018-04-17 11:50:55 debug main: main::websocket_tx 127.0.0.1:60482 send {"job":"0400000070a9818ef3573ccdb696f7860df98d1cdf18ffc4863cfc516ae8db0200000000ab5a0c0e2a27ee63245614a9b4b2ef094afd6f84f03ea6011c0abc796a3623ee0000000000000000000000000000000000000000000000000000000000000000132bd65a734b0f1c06fce6d5dc7f000001ec42","target":"0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"}
+2018-04-17 11:51:10 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983870}
+2018-04-17 11:51:39 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983899}
+2018-04-17 11:52:09 debug main: main::websocket_tx 127.0.0.1:60482 send {"keepalive":1523983929}
+2018-04-17 12:24:13 debug AnyEvent::Loop: Using CLOCK_MONOTONIC as timebase.
+2018-04-17 12:24:13 info  AnyEvent: Autoloaded model 'AnyEvent::Impl::Perl', using it.
+2018-04-17 12:24:13 debug AnyEvent::Base: using Time::HiRes for sub-second timing accuracy.
+2018-04-17 12:24:13 info  main: main perl v5.24.1 on msys, AnyEvent 7.13, Protocol::WebSocket 0.20
+2018-04-17 12:24:13 info  main: main started on 0.0.0.0:8888
+2018-04-17 12:24:13 info  main: main::stat.timer accepted sol/s = 0.0000
+2018-04-17 12:24:15 debug AnyEvent::Socket: (re)loading /etc/hosts.
+2018-04-17 12:24:15 info  main: main::stratum.on_connect connected to eu1-zcash.flypool.org:3333
+2018-04-17 12:24:15 debug main: main::stratum_tx send {"id":1,"method":"mining.subscribe","params":["jazecminer","eu1-zcash.flypool.org","3333"]}
+2018-04-17 12:24:15 debug main: main::httpd.cb 127.0.0.1:60991 connected
+2018-04-17 12:24:15 debug main: main::http 127.0.0.1:60991 get index.html
+2018-04-17 12:24:15 info  main: main::http 127.0.0.1:60991 static index.html size 3606
+2018-04-17 12:24:15 debug main: main::httpd.on_eof 127.0.0.1:60991 disconnected
+2018-04-17 12:24:15 debug main: main::stratum_read got {"error":null,"id":1,"result":["061cf6f5d5","061cf6f5d5"]}
+2018-04-17 12:24:15 info  main: main::stratum_subscribed nonce1 061cf6f5d5
+2018-04-17 12:24:15 debug main: main::stratum_tx send {"id":2,"method":"mining.authorize","params":["t1Vm6PbF2ZkSLshWHKwLqxD7oU6TgEDX5nV.js","x"]}
+2018-04-17 12:24:15 debug main: main::httpd.cb 127.0.0.1:60992 connected
+2018-04-17 12:24:15 debug main: main::http 127.0.0.1:60992 get jazecminer.js
+2018-04-17 12:24:15 info  main: main::http 127.0.0.1:60992 static jazecminer.js size 86788
+2018-04-17 12:24:15 debug main: main::httpd.on_eof 127.0.0.1:60992 disconnected
+2018-04-17 12:24:15 debug main: main::stratum_read got {"error":null,"id":2,"result":true}
+2018-04-17 12:24:15 info  main: main::stratum_read authorized
+2018-04-17 12:24:15 debug main: main::stratum_read got {"id":null,"method":"mining.set_target","params":["0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"]}
+2018-04-17 12:24:15 info  main: main::stratum_got_target target 0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a
+2018-04-17 12:24:15 debug main: main::stratum_tx send {"id":3,"method":"mining.extranonce.subscribe","params":[]}
+2018-04-17 12:24:15 debug main: main::httpd.cb 127.0.0.1:60994 connected
+2018-04-17 12:24:15 debug main: main::http 127.0.0.1:60994 get hushminer.base.profiled.wasm
+2018-04-17 12:24:15 info  main: main::http 127.0.0.1:60994 static hushminer.base.profiled.wasm size 48886
+2018-04-17 12:24:15 debug main: main::httpd.on_eof 127.0.0.1:60994 disconnected
+2018-04-17 12:24:15 debug main: main::httpd.cb 127.0.0.1:60995 connected
+2018-04-17 12:24:15 debug main: main::http 127.0.0.1:60995 get favicon.ico
+2018-04-17 12:24:15 info  main: main::http 127.0.0.1:60995 static favicon.ico size 318
+2018-04-17 12:24:15 debug main: main::httpd.on_eof 127.0.0.1:60995 disconnected
+2018-04-17 12:24:16 debug main: main::httpd.cb 127.0.0.1:60997 connected
+2018-04-17 12:24:16 debug main: main::http 127.0.0.1:60997 get ws
+2018-04-17 12:24:16 debug main: main::websocket_onread 127.0.0.1:60997 opened
+2018-04-17 12:24:16 debug main: main::websocket_tx 127.0.0.1:60997 send {"job":"?","target":"0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"}
+2018-04-17 12:24:16 debug main: main::httpd.cb 127.0.0.1:60998 connected
+2018-04-17 12:24:16 debug main: main::httpd.cb 127.0.0.1:60999 connected
+2018-04-17 12:24:16 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["d69a2a58c51129cf0af9","04000000","97954df14dad8ca5638bc13111b34224acd6cd3252e9e10bd1f0450700000000","841398c87e23ac0384a82f00a7b944df1b72b67e535233875390b681e7038cfd","0000000000000000000000000000000000000000000000000000000000000000","4432d65a","7b440e1c",true]}
+2018-04-17 12:24:16 info  main: main::stratum_got_job job d69a2a58c51129cf0af9 04000000 97954df14dad8ca5638bc13111b34224acd6cd3252e9e10bd1f0450700000000 841398c87e23ac0384a82f00a7b944df1b72b67e535233875390b681e7038cfd 0000000000000000000000000000000000000000000000000000000000000000 4432d65a 7b440e1c 1
+2018-04-17 12:24:16 debug main: main::websocket_tx 127.0.0.1:60997 send {"job":"0400000097954df14dad8ca5638bc13111b34224acd6cd3252e9e10bd1f0450700000000841398c87e23ac0384a82f00a7b944df1b72b67e535233875390b681e7038cfd00000000000000000000000000000000000000000000000000000000000000004432d65a7b440e1c061cf6f5d57f000001ee45","target":"0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"}
+2018-04-17 12:24:16 debug main: main::httpd.cb 127.0.0.1:61000 connected
+2018-04-17 12:24:21 error main: main::httpd.on_error 127.0.0.1:60998 error Broken pipe
+2018-04-17 12:24:22 error main: main::httpd.on_error 127.0.0.1:60999 error Broken pipe
+2018-04-17 12:24:22 error main: main::httpd.on_error 127.0.0.1:61000 error Broken pipe
+2018-04-17 12:24:34 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["d32a4b98a8d7ded6a0ae","04000000","97954df14dad8ca5638bc13111b34224acd6cd3252e9e10bd1f0450700000000","743d706d88e91dc35bf3a06c446e1cf07401954048f8278eb0ccf7fb02ea1fa3","0000000000000000000000000000000000000000000000000000000000000000","f632d65a","7b440e1c",true]}
+2018-04-17 12:24:34 info  main: main::stratum_got_job job d32a4b98a8d7ded6a0ae 04000000 97954df14dad8ca5638bc13111b34224acd6cd3252e9e10bd1f0450700000000 743d706d88e91dc35bf3a06c446e1cf07401954048f8278eb0ccf7fb02ea1fa3 0000000000000000000000000000000000000000000000000000000000000000 f632d65a 7b440e1c 1
+2018-04-17 12:24:34 debug main: main::websocket_tx 127.0.0.1:60997 send {"job":"0400000097954df14dad8ca5638bc13111b34224acd6cd3252e9e10bd1f0450700000000743d706d88e91dc35bf3a06c446e1cf07401954048f8278eb0ccf7fb02ea1fa30000000000000000000000000000000000000000000000000000000000000000f632d65a7b440e1c061cf6f5d57f000001ee45","target":"0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"}
+2018-04-17 12:24:43 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523985883}
+2018-04-17 12:25:13 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523985913}
+2018-04-17 12:25:43 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523985943}
+2018-04-17 12:26:13 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523985973}
+2018-04-17 12:26:43 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523986003}
+2018-04-17 12:27:13 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523986033}
+2018-04-17 12:27:34 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["89b7d4a2ede5ccb3ab5f","04000000","97954df14dad8ca5638bc13111b34224acd6cd3252e9e10bd1f0450700000000","330f0a4c279692a38e8152acb1554b7914c769bac66b52a69e31c3253029b27b","0000000000000000000000000000000000000000000000000000000000000000","aa33d65a","7b440e1c",true]}
+2018-04-17 12:27:34 info  main: main::stratum_got_job job 89b7d4a2ede5ccb3ab5f 04000000 97954df14dad8ca5638bc13111b34224acd6cd3252e9e10bd1f0450700000000 330f0a4c279692a38e8152acb1554b7914c769bac66b52a69e31c3253029b27b 0000000000000000000000000000000000000000000000000000000000000000 aa33d65a 7b440e1c 1
+2018-04-17 12:27:34 debug main: main::websocket_tx 127.0.0.1:60997 send {"job":"0400000097954df14dad8ca5638bc13111b34224acd6cd3252e9e10bd1f0450700000000330f0a4c279692a38e8152acb1554b7914c769bac66b52a69e31c3253029b27b0000000000000000000000000000000000000000000000000000000000000000aa33d65a7b440e1c061cf6f5d57f000001ee45","target":"0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"}
+2018-04-17 12:27:43 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523986063}
+2018-04-17 12:28:10 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["4c42e560b3bd4cab431b","04000000","f6212ec10ff022cd04536d803d8b8a0e07dedd66bff974667ed5fd0000000000","bc9e83996c4e3336b1c8dc0f3ab10b6b5be79f7c570989b9104c7fc79e343884","0000000000000000000000000000000000000000000000000000000000000000","cd33d65a","4def0d1c",true]}
+2018-04-17 12:28:10 info  main: main::stratum_got_job job 4c42e560b3bd4cab431b 04000000 f6212ec10ff022cd04536d803d8b8a0e07dedd66bff974667ed5fd0000000000 bc9e83996c4e3336b1c8dc0f3ab10b6b5be79f7c570989b9104c7fc79e343884 0000000000000000000000000000000000000000000000000000000000000000 cd33d65a 4def0d1c 1
+2018-04-17 12:28:10 debug main: main::websocket_tx 127.0.0.1:60997 send {"job":"04000000f6212ec10ff022cd04536d803d8b8a0e07dedd66bff974667ed5fd0000000000bc9e83996c4e3336b1c8dc0f3ab10b6b5be79f7c570989b9104c7fc79e3438840000000000000000000000000000000000000000000000000000000000000000cd33d65a4def0d1c061cf6f5d57f000001ee45","target":"0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"}
+2018-04-17 12:28:13 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523986093}
+2018-04-17 12:28:43 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523986123}
+2018-04-17 12:29:13 info  main: main::stat.timer accepted sol/s = 0.0000
+2018-04-17 12:29:13 info  main: main::stat.timer http connects = 8
+2018-04-17 12:29:13 info  main: main::stat.timer http requests static = 4
+2018-04-17 12:29:13 info  main: main::stat.timer http requests ws = 1
+2018-04-17 12:29:13 info  main: main::stat.timer http sessions = 1
+2018-04-17 12:29:13 info  main: main::stat.timer http websockets = 1
+2018-04-17 12:29:13 info  main: main::stat.timer stratum jobs received = 4
+2018-04-17 12:29:13 info  main: main::stat.timer unique ip = 1
+2018-04-17 12:29:13 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523986153}
+2018-04-17 12:29:30 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["5b5e0abeb38a1aa96ba8","04000000","77ed1155f32f2ee904fb923dccb50d5a67b8e50ee0f9ae7f7576e90000000000","9d2c01f0f5103db85ae4b6f8911742e468988011604770732b606d55a6f19476","0000000000000000000000000000000000000000000000000000000000000000","1d34d65a","93110e1c",true]}
+2018-04-17 12:29:30 info  main: main::stratum_got_job job 5b5e0abeb38a1aa96ba8 04000000 77ed1155f32f2ee904fb923dccb50d5a67b8e50ee0f9ae7f7576e90000000000 9d2c01f0f5103db85ae4b6f8911742e468988011604770732b606d55a6f19476 0000000000000000000000000000000000000000000000000000000000000000 1d34d65a 93110e1c 1
+2018-04-17 12:29:30 debug main: main::websocket_tx 127.0.0.1:60997 send {"job":"0400000077ed1155f32f2ee904fb923dccb50d5a67b8e50ee0f9ae7f7576e900000000009d2c01f0f5103db85ae4b6f8911742e468988011604770732b606d55a6f1947600000000000000000000000000000000000000000000000000000000000000001d34d65a93110e1c061cf6f5d57f000001ee45","target":"0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"}
+2018-04-17 12:29:42 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523986182}
+2018-04-17 12:52:08 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523987528}
+2018-04-17 12:52:38 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523987558}
+2018-04-17 12:53:08 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523987588}
+2018-04-17 12:53:38 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523987618}
+2018-04-17 12:54:08 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523987648}
+2018-04-17 12:54:30 debug main: main::stratum_read got {"id":null,"method":"mining.notify","params":["1fedc2469ad75c2ba505","04000000","77ed1155f32f2ee904fb923dccb50d5a67b8e50ee0f9ae7f7576e90000000000","5c1fab746da42d37c4c53b1fc7f5cd99d8a84e82078450b33c9943bc7a8dc7cc","0000000000000000000000000000000000000000000000000000000000000000","d634d65a","93110e1c",true]}
+2018-04-17 12:54:30 info  main: main::stratum_got_job job 1fedc2469ad75c2ba505 04000000 77ed1155f32f2ee904fb923dccb50d5a67b8e50ee0f9ae7f7576e90000000000 5c1fab746da42d37c4c53b1fc7f5cd99d8a84e82078450b33c9943bc7a8dc7cc 0000000000000000000000000000000000000000000000000000000000000000 d634d65a 93110e1c 1
+2018-04-17 12:54:30 debug main: main::websocket_tx 127.0.0.1:60997 send {"job":"0400000077ed1155f32f2ee904fb923dccb50d5a67b8e50ee0f9ae7f7576e900000000005c1fab746da42d37c4c53b1fc7f5cd99d8a84e82078450b33c9943bc7a8dc7cc0000000000000000000000000000000000000000000000000000000000000000d634d65a93110e1c061cf6f5d57f000001ee45","target":"0004189374bc6a7ef9db22d0e5604189374bc6a7ef9db22d0e5604189374bc6a"}
+2018-04-17 12:54:38 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523987678}
+2018-04-17 12:55:09 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523987709}
+2018-04-17 12:55:39 debug main: main::websocket_tx 127.0.0.1:60997 send {"keepalive":1523987739}
