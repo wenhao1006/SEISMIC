@@ -1,0 +1,71 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  color: rgb(175, 175, 175);
+  font-family: Monaco, Consolas, Courier, monospace;
+}
+
+h1 {
+  font-size: 16px;
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+#fullscreen {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  /*
+  NOTE: if i used justify-content on #fullscreen instead, horizontal scrolling breaks.
+  Using `margin: 0 auto` works better here.
+  */
+  margin: 0 auto;
+}
+
+#layer_wrapper {
+  margin: 0 auto;
+}
+
+#layer_wrapper canvas {
+  display: block;
+  position: absolute;
+}
+
+#info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 10px 0 0;
+  opacity: 0.5;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  #info {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+#info:hover {
+  opacity: 1;
+}
+
+#info span {
+  color: #d67fff;
+}
+
+#info a {
+  color: #42b6ff;
+}
