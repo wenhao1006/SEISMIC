@@ -1,0 +1,91 @@
+body {
+	font-family: sans-serif;
+	color: #333333
+}
+
+
+h1 {
+	color: #46a073;
+	margin-top: 1.2em;
+	font-size: 30pt;
+}
+
+h2 {
+	margin-top: 2em;
+}
+
+input, select {
+	padding: 4px;
+}
+
+div.minerAction {
+	text-decoration: none;
+	color: darkgreen;
+	display: inline-block;
+	cursor: pointer;
+}
+
+div.minerAction:hover {
+	color: red;
+}
+
+div.minerThreadsActions {
+	text-decoration: none;
+	font-size: 14pt;
+	color: darkgreen;
+	}
+
+div.minerActionDisabled, div.minerActionDisabled:hover		{
+	color: gray;
+	cursor: default;
+}
+
+div.button {
+	border-radius: 10px;
+	display: inline-block;
+	background-color: #4db380;
+	padding: 1em 2em 1em 2em;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+div.button:hover {
+	background-color: #83c9a6;
+}
+
+div.getCodeResult {
+	display: none; 
+	border: 4px solid black; 
+	border-radius: 10px; 
+	padding: 0 1em 0 1em; 
+	margin-left: 3em; 
+/*	width: 40em;*/
+	width: 36em; 
+	margin-top: 1em;
+	margin-bottom: 4em;
+}
+
+.apiFunctionTitle {
+	font-size: 16pt;
+	margin-top: 2em;
+}
+
+table.apiTable {
+	border-collapse:collapse;
+	width: 100%;
+}
+
+table.apiTable tr td:first-child {
+	font-style: italic;
+	width: 8em;
+}
+
+table.apiTable tr td{
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	border-bottom: solid 1px #a8d7c1;
+}
+
+table.pool tr td {
+	padding-bottom: 1em;
+}

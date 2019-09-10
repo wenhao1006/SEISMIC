@@ -1,0 +1,425 @@
+2018-04-17 11:56:08 debug AnyEvent::Loop: Using CLOCK_MONOTONIC as timebase.
+2018-04-17 11:56:08 info  AnyEvent: Autoloaded model 'AnyEvent::Impl::Perl', using it.
+2018-04-17 11:56:08 debug AnyEvent::Base: using Time::HiRes for sub-second timing accuracy.
+2018-04-17 11:56:08 info  main: main perl v5.24.1 on msys, AnyEvent 7.13, Protocol::WebSocket 0.20
+2018-04-17 11:56:08 info  main: main started on 0.0.0.0:9999
+2018-04-17 11:56:08 info  main: main::stat.timer accepted sol/s = 0.0000
+2018-04-17 11:56:10 debug AnyEvent::Socket: (re)loading /etc/hosts.
+2018-04-17 11:56:10 error main: main::stratum.on_connect_error us.madmining.club:3333 error No such device or address (6)
+2018-04-17 11:56:10 info  main: main::stratum_close closed
+2018-04-17 11:56:30 debug AnyEvent::Loop: Using CLOCK_MONOTONIC as timebase.
+2018-04-17 11:56:30 info  AnyEvent: Autoloaded model 'AnyEvent::Impl::Perl', using it.
+2018-04-17 11:56:30 debug AnyEvent::Base: using Time::HiRes for sub-second timing accuracy.
+2018-04-17 11:56:30 info  main: main perl v5.24.1 on msys, AnyEvent 7.13, Protocol::WebSocket 0.20
+2018-04-17 11:56:30 info  main: main started on 0.0.0.0:9999
+2018-04-17 11:56:30 info  main: main::stat.timer accepted sol/s = 0.0000
+2018-04-17 11:56:32 debug AnyEvent::Socket: (re)loading /etc/hosts.
+2018-04-17 11:56:32 error main: main::stratum.on_connect_error us.madmining.club:3333 error No such device or address (6)
+2018-04-17 11:56:32 info  main: main::stratum_close closed
+2018-04-17 11:56:35 debug main: main::httpd.cb 127.0.0.1:60532 connected
+2018-04-17 11:56:35 debug main: main::http buf=GET / HTTP/1.1
+2018-04-17 11:56:35 debug main: main::http 127.0.0.1:60532 get index.html
+2018-04-17 11:56:35 info  main: main::http 127.0.0.1:60532 static index.html size 4842
+2018-04-17 11:56:35 debug main: main::httpd.on_eof 127.0.0.1:60532 disconnected
+2018-04-17 11:56:35 debug main: main::httpd.cb 127.0.0.1:60533 connected
+2018-04-17 11:56:35 debug main: main::httpd.cb 127.0.0.1:60534 connected
+2018-04-17 11:56:35 debug main: main::httpd.cb 127.0.0.1:60535 connected
+2018-04-17 11:56:35 debug main: main::httpd.cb 127.0.0.1:60536 connected
+2018-04-17 11:56:35 debug main: main::http buf=GET /style.css HTTP/1.1
+2018-04-17 11:56:35 debug main: main::http 127.0.0.1:60533 get style.css
+2018-04-17 11:56:35 info  main: main::http 127.0.0.1:60533 static style.css size 4524
+2018-04-17 11:56:35 debug main: main::http buf=GET /hushminer.js HTTP/1.1
+2018-04-17 11:56:35 debug main: main::http 127.0.0.1:60534 get hushminer.js
+2018-04-17 11:56:35 info  main: main::http 127.0.0.1:60534 static hushminer.js size 84093
+2018-04-17 11:56:35 debug main: main::http buf=GET /hacktimer.js HTTP/1.1
+2018-04-17 11:56:35 debug main: main::http 127.0.0.1:60535 get hacktimer.js
+2018-04-17 11:56:35 info  main: main::http 127.0.0.1:60535 static hacktimer.js size 3966
+2018-04-17 11:56:35 debug main: main::httpd.cb 127.0.0.1:60537 connected
+2018-04-17 11:56:35 debug main: main::httpd.on_eof 127.0.0.1:60533 disconnected
+2018-04-17 11:56:35 debug main: main::httpd.on_eof 127.0.0.1:60534 disconnected
+2018-04-17 11:56:35 debug main: main::http buf=GET /main.js HTTP/1.1
+2018-04-17 11:56:35 debug main: main::http 127.0.0.1:60536 get main.js
+2018-04-17 11:56:35 info  main: main::http 127.0.0.1:60536 static main.js size 5202
+2018-04-17 11:56:35 debug main: main::httpd.on_eof 127.0.0.1:60535 disconnected
+2018-04-17 11:56:35 debug main: main::httpd.on_eof 127.0.0.1:60536 disconnected
+2018-04-17 11:56:36 debug main: main::http buf=GET /hush_puppy.png HTTP/1.1
+2018-04-17 11:56:36 debug main: main::http 127.0.0.1:60537 get hush_puppy.png
+2018-04-17 11:56:36 info  main: main::http 127.0.0.1:60537 static hush_puppy.png size 196761
+2018-04-17 11:56:36 debug main: main::httpd.on_eof 127.0.0.1:60537 disconnected
+2018-04-17 11:56:36 debug main: main::httpd.cb 127.0.0.1:60544 connected
+2018-04-17 11:56:36 debug main: main::http buf=GET /hushminer.wasm HTTP/1.1
+2018-04-17 11:56:36 debug main: main::http 127.0.0.1:60544 get hushminer.wasm
+2018-04-17 11:56:36 info  main: main::http 127.0.0.1:60544 static hushminer.wasm size 38424
+2018-04-17 11:56:36 debug main: main::httpd.on_eof 127.0.0.1:60544 disconnected
+2018-04-17 11:56:36 debug main: main::httpd.cb 127.0.0.1:60548 connected
+2018-04-17 11:56:36 debug main: main::http buf=GET /ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto HTTP/1.1
+2018-04-17 11:56:36 debug main: main::http 127.0.0.1:60548 get ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 11:56:36 info  main: main::websocket_onread request URL=ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 11:56:36 debug main: main::websocket_onread 127.0.0.1:60548 opened
+2018-04-17 11:56:36 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60548 send {"job":"?","target":"?"}
+2018-04-17 11:56:36 debug main: main::httpd.cb 127.0.0.1:60549 connected
+2018-04-17 11:56:37 debug main: main::httpd.cb 127.0.0.1:60550 connected
+2018-04-17 11:56:41 info  main: main::websocket_onread request URL=ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 11:56:41 debug main: main::http buf=GET / HTTP/1.1
+2018-04-17 11:56:41 debug main: main::http 127.0.0.1:60549 get index.html
+2018-04-17 11:56:41 info  main: main::http 127.0.0.1:60549 static index.html size 4842
+2018-04-17 11:56:41 debug main: main::httpd.on_eof 127.0.0.1:60549 disconnected
+2018-04-17 11:56:41 debug main: main::httpd.cb 127.0.0.1:60551 connected
+2018-04-17 11:56:41 debug main: main::httpd.cb 127.0.0.1:60552 connected
+2018-04-17 11:56:41 debug main: main::httpd.cb 127.0.0.1:60553 connected
+2018-04-17 11:56:41 debug main: main::httpd.cb 127.0.0.1:60554 connected
+2018-04-17 11:56:41 debug main: main::http buf=GET /style.css HTTP/1.1
+2018-04-17 11:56:41 debug main: main::http 127.0.0.1:60551 get style.css
+2018-04-17 11:56:41 info  main: main::http 127.0.0.1:60551 static style.css size 4524
+2018-04-17 11:56:41 debug main: main::http buf=GET /hacktimer.js HTTP/1.1
+2018-04-17 11:56:41 debug main: main::http 127.0.0.1:60552 get hacktimer.js
+2018-04-17 11:56:41 info  main: main::http 127.0.0.1:60552 static hacktimer.js size 3966
+2018-04-17 11:56:41 debug main: main::http buf=GET /main.js HTTP/1.1
+2018-04-17 11:56:41 debug main: main::http 127.0.0.1:60553 get main.js
+2018-04-17 11:56:41 info  main: main::http 127.0.0.1:60553 static main.js size 5202
+2018-04-17 11:56:41 debug main: main::http buf=GET /hushminer.js HTTP/1.1
+2018-04-17 11:56:41 debug main: main::http 127.0.0.1:60554 get hushminer.js
+2018-04-17 11:56:41 info  main: main::http 127.0.0.1:60554 static hushminer.js size 84093
+2018-04-17 11:56:41 debug main: main::httpd.on_eof 127.0.0.1:60551 disconnected
+2018-04-17 11:56:41 debug main: main::httpd.on_eof 127.0.0.1:60552 disconnected
+2018-04-17 11:56:41 debug main: main::httpd.on_eof 127.0.0.1:60553 disconnected
+2018-04-17 11:56:41 debug main: main::httpd.on_eof 127.0.0.1:60554 disconnected
+2018-04-17 11:56:41 debug main: main::httpd.cb 127.0.0.1:60555 connected
+2018-04-17 11:56:41 debug main: main::http buf=GET /hush_puppy.png HTTP/1.1
+2018-04-17 11:56:41 debug main: main::http 127.0.0.1:60555 get hush_puppy.png
+2018-04-17 11:56:41 info  main: main::http 127.0.0.1:60555 static hush_puppy.png size 196761
+2018-04-17 11:56:41 debug main: main::httpd.on_eof 127.0.0.1:60555 disconnected
+2018-04-17 11:56:41 debug main: main::httpd.cb 127.0.0.1:60556 connected
+2018-04-17 11:56:41 debug main: main::http buf=GET /hushminer.wasm HTTP/1.1
+2018-04-17 11:56:41 debug main: main::http 127.0.0.1:60556 get hushminer.wasm
+2018-04-17 11:56:41 info  main: main::http 127.0.0.1:60556 static hushminer.wasm size 38424
+2018-04-17 11:56:41 debug main: main::httpd.on_eof 127.0.0.1:60556 disconnected
+2018-04-17 11:56:41 debug main: main::httpd.cb 127.0.0.1:60557 connected
+2018-04-17 11:56:41 debug main: main::http buf=GET /favicon.ico HTTP/1.1
+2018-04-17 11:56:41 debug main: main::http 127.0.0.1:60557 get favicon.ico
+2018-04-17 11:56:41 info  main: main::http 127.0.0.1:60557 static favicon.ico size 370070
+2018-04-17 11:56:41 debug main: main::httpd.on_eof 127.0.0.1:60557 disconnected
+2018-04-17 11:56:41 debug main: main::httpd.cb 127.0.0.1:60558 connected
+2018-04-17 11:56:41 debug main: main::http buf=GET /ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto HTTP/1.1
+2018-04-17 11:56:41 debug main: main::http 127.0.0.1:60558 get ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 11:56:41 info  main: main::websocket_onread request URL=ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 11:56:41 debug main: main::websocket_onread 127.0.0.1:60558 opened
+2018-04-17 11:56:41 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60558 send {"job":"?","target":"?"}
+2018-04-17 11:56:43 error main: main::httpd.on_error 127.0.0.1:60550 error Broken pipe
+2018-04-17 11:56:49 info  main: main::websocket_onread request URL=ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 11:56:49 debug main: main::httpd.cb 127.0.0.1:60561 connected
+2018-04-17 11:56:49 debug main: main::http buf=GET / HTTP/1.1
+2018-04-17 11:56:49 debug main: main::http 127.0.0.1:60561 get index.html
+2018-04-17 11:56:49 info  main: main::http 127.0.0.1:60561 static index.html size 4842
+2018-04-17 11:56:49 debug main: main::httpd.on_eof 127.0.0.1:60561 disconnected
+2018-04-17 11:56:49 debug main: main::httpd.cb 127.0.0.1:60562 connected
+2018-04-17 11:56:49 debug main: main::httpd.cb 127.0.0.1:60563 connected
+2018-04-17 11:56:49 debug main: main::httpd.cb 127.0.0.1:60564 connected
+2018-04-17 11:56:49 debug main: main::http buf=GET /style.css HTTP/1.1
+2018-04-17 11:56:49 debug main: main::http 127.0.0.1:60562 get style.css
+2018-04-17 11:56:49 info  main: main::http 127.0.0.1:60562 static style.css size 4524
+2018-04-17 11:56:49 debug main: main::http buf=GET /hacktimer.js HTTP/1.1
+2018-04-17 11:56:49 debug main: main::http 127.0.0.1:60563 get hacktimer.js
+2018-04-17 11:56:49 info  main: main::http 127.0.0.1:60563 static hacktimer.js size 3966
+2018-04-17 11:56:49 debug main: main::http buf=GET /hushminer.js HTTP/1.1
+2018-04-17 11:56:49 debug main: main::http 127.0.0.1:60564 get hushminer.js
+2018-04-17 11:56:49 info  main: main::http 127.0.0.1:60564 static hushminer.js size 84093
+2018-04-17 11:56:49 debug main: main::httpd.cb 127.0.0.1:60565 connected
+2018-04-17 11:56:49 debug main: main::httpd.on_eof 127.0.0.1:60562 disconnected
+2018-04-17 11:56:49 debug main: main::httpd.on_eof 127.0.0.1:60563 disconnected
+2018-04-17 11:56:49 debug main: main::httpd.on_eof 127.0.0.1:60564 disconnected
+2018-04-17 11:56:49 debug main: main::http buf=GET /main.js HTTP/1.1
+2018-04-17 11:56:49 debug main: main::http 127.0.0.1:60565 get main.js
+2018-04-17 11:56:49 info  main: main::http 127.0.0.1:60565 static main.js size 5202
+2018-04-17 11:56:49 debug main: main::httpd.on_eof 127.0.0.1:60565 disconnected
+2018-04-17 11:56:49 debug main: main::httpd.cb 127.0.0.1:60566 connected
+2018-04-17 11:56:49 debug main: main::http buf=GET /hush_puppy.png HTTP/1.1
+2018-04-17 11:56:49 debug main: main::http 127.0.0.1:60566 get hush_puppy.png
+2018-04-17 11:56:49 info  main: main::http 127.0.0.1:60566 static hush_puppy.png size 196761
+2018-04-17 11:56:49 debug main: main::httpd.on_eof 127.0.0.1:60566 disconnected
+2018-04-17 11:56:50 debug main: main::httpd.cb 127.0.0.1:60567 connected
+2018-04-17 11:56:50 debug main: main::http buf=GET /hushminer.wasm HTTP/1.1
+2018-04-17 11:56:50 debug main: main::http 127.0.0.1:60567 get hushminer.wasm
+2018-04-17 11:56:50 info  main: main::http 127.0.0.1:60567 static hushminer.wasm size 38424
+2018-04-17 11:56:50 debug main: main::httpd.on_eof 127.0.0.1:60567 disconnected
+2018-04-17 11:56:50 debug main: main::httpd.cb 127.0.0.1:60568 connected
+2018-04-17 11:56:50 debug main: main::http buf=GET /favicon.ico HTTP/1.1
+2018-04-17 11:56:50 debug main: main::http 127.0.0.1:60568 get favicon.ico
+2018-04-17 11:56:50 info  main: main::http 127.0.0.1:60568 static favicon.ico size 370070
+2018-04-17 11:56:50 debug main: main::httpd.on_eof 127.0.0.1:60568 disconnected
+2018-04-17 11:56:50 debug main: main::httpd.cb 127.0.0.1:60569 connected
+2018-04-17 11:56:50 debug main: main::http buf=GET /ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto HTTP/1.1
+2018-04-17 11:56:50 debug main: main::http 127.0.0.1:60569 get ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 11:56:50 info  main: main::websocket_onread request URL=ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 11:56:50 debug main: main::websocket_onread 127.0.0.1:60569 opened
+2018-04-17 11:56:50 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60569 send {"job":"?","target":"?"}
+2018-04-17 11:57:00 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60569 send {"keepalive":1523984220}
+2018-04-17 11:57:00 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60558 send {"keepalive":1523984220}
+2018-04-17 11:57:00 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60548 send {"keepalive":1523984220}
+2018-04-17 11:57:01 debug main: main::httpd.on_eof 127.0.0.1:60548 disconnected
+2018-04-17 11:57:08 info  main: main::websocket_onread request URL=ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 11:57:08 debug main: main::httpd.cb 127.0.0.1:60578 connected
+2018-04-17 11:57:08 debug main: main::httpd.cb 127.0.0.1:60579 connected
+2018-04-17 11:57:08 debug main: main::http buf=GET / HTTP/1.1
+2018-04-17 11:57:08 debug main: main::http 127.0.0.1:60578 get index.html
+2018-04-17 11:57:08 info  main: main::http 127.0.0.1:60578 static index.html size 4842
+2018-04-17 11:57:08 debug main: main::httpd.on_eof 127.0.0.1:60578 disconnected
+2018-04-17 11:57:08 debug main: main::http buf=GET /style.css HTTP/1.1
+2018-04-17 11:57:08 debug main: main::http 127.0.0.1:60579 get style.css
+2018-04-17 11:57:08 info  main: main::http 127.0.0.1:60579 static style.css size 4524
+2018-04-17 11:57:08 debug main: main::httpd.cb 127.0.0.1:60580 connected
+2018-04-17 11:57:08 debug main: main::httpd.cb 127.0.0.1:60581 connected
+2018-04-17 11:57:08 debug main: main::httpd.cb 127.0.0.1:60582 connected
+2018-04-17 11:57:08 debug main: main::httpd.on_eof 127.0.0.1:60579 disconnected
+2018-04-17 11:57:08 debug main: main::http buf=GET /hacktimer.js HTTP/1.1
+2018-04-17 11:57:08 debug main: main::http 127.0.0.1:60580 get hacktimer.js
+2018-04-17 11:57:08 info  main: main::http 127.0.0.1:60580 static hacktimer.js size 3966
+2018-04-17 11:57:08 debug main: main::http buf=GET /hushminer.js HTTP/1.1
+2018-04-17 11:57:08 debug main: main::http 127.0.0.1:60581 get hushminer.js
+2018-04-17 11:57:08 info  main: main::http 127.0.0.1:60581 static hushminer.js size 84093
+2018-04-17 11:57:08 debug main: main::http buf=GET /main.js HTTP/1.1
+2018-04-17 11:57:08 debug main: main::http 127.0.0.1:60582 get main.js
+2018-04-17 11:57:08 info  main: main::http 127.0.0.1:60582 static main.js size 5202
+2018-04-17 11:57:08 debug main: main::httpd.on_eof 127.0.0.1:60580 disconnected
+2018-04-17 11:57:08 debug main: main::httpd.on_eof 127.0.0.1:60581 disconnected
+2018-04-17 11:57:08 debug main: main::httpd.on_eof 127.0.0.1:60582 disconnected
+2018-04-17 11:57:08 debug main: main::httpd.cb 127.0.0.1:60583 connected
+2018-04-17 11:57:08 debug main: main::http buf=GET /hush_puppy.png HTTP/1.1
+2018-04-17 11:57:08 debug main: main::http 127.0.0.1:60583 get hush_puppy.png
+2018-04-17 11:57:08 info  main: main::http 127.0.0.1:60583 static hush_puppy.png size 196761
+2018-04-17 11:57:08 debug main: main::httpd.on_eof 127.0.0.1:60583 disconnected
+2018-04-17 11:57:08 debug main: main::httpd.cb 127.0.0.1:60584 connected
+2018-04-17 11:57:08 debug main: main::http buf=GET /hushminer.wasm HTTP/1.1
+2018-04-17 11:57:08 debug main: main::http 127.0.0.1:60584 get hushminer.wasm
+2018-04-17 11:57:08 info  main: main::http 127.0.0.1:60584 static hushminer.wasm size 38424
+2018-04-17 11:57:08 debug main: main::httpd.on_eof 127.0.0.1:60584 disconnected
+2018-04-17 11:57:08 debug main: main::httpd.cb 127.0.0.1:60585 connected
+2018-04-17 11:57:08 debug main: main::http buf=GET /favicon.ico HTTP/1.1
+2018-04-17 11:57:08 debug main: main::http 127.0.0.1:60585 get favicon.ico
+2018-04-17 11:57:08 info  main: main::http 127.0.0.1:60585 static favicon.ico size 370070
+2018-04-17 11:57:08 debug main: main::httpd.on_eof 127.0.0.1:60585 disconnected
+2018-04-17 11:57:08 debug main: main::httpd.cb 127.0.0.1:60586 connected
+2018-04-17 11:57:08 debug main: main::http buf=GET /ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto HTTP/1.1
+2018-04-17 11:57:08 debug main: main::http 127.0.0.1:60586 get ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 11:57:08 info  main: main::websocket_onread request URL=ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 11:57:08 debug main: main::websocket_onread 127.0.0.1:60586 opened
+2018-04-17 11:57:08 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60586 send {"job":"?","target":"?"}
+2018-04-17 11:57:10 debug main: main::httpd.on_eof 127.0.0.1:60558 disconnected
+2018-04-17 11:57:13 debug main: main::httpd.cb 127.0.0.1:60589 connected
+2018-04-17 11:57:13 debug main: main::http buf=GET /style.css HTTP/1.1
+2018-04-17 11:57:13 debug main: main::http 127.0.0.1:60589 get style.css
+2018-04-17 11:57:13 info  main: main::http 127.0.0.1:60589 static style.css size 4524
+2018-04-17 11:57:13 error main: main::httpd.on_error 127.0.0.1:60589 error Software caused connection abort
+2018-04-17 11:57:28 debug main: main::httpd.on_eof 127.0.0.1:60569 disconnected
+2018-04-17 11:57:29 info  main: main::websocket_onread request URL=ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 11:57:31 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60586 send {"keepalive":1523984251}
+2018-04-17 11:57:33 error main: main::stratum.on_connect_error us.madmining.club:3333 error No such device or address (6)
+2018-04-17 11:57:33 info  main: main::stratum_close closed
+2018-04-17 12:01:29 debug AnyEvent::Loop: Using CLOCK_MONOTONIC as timebase.
+2018-04-17 12:01:29 info  AnyEvent: Autoloaded model 'AnyEvent::Impl::Perl', using it.
+2018-04-17 12:01:29 debug AnyEvent::Base: using Time::HiRes for sub-second timing accuracy.
+2018-04-17 12:01:29 info  main: main perl v5.24.1 on msys, AnyEvent 7.13, Protocol::WebSocket 0.20
+2018-04-17 12:01:29 info  main: main started on 0.0.0.0:9999
+2018-04-17 12:01:29 info  main: main::stat.timer accepted sol/s = 0.0000
+2018-04-17 12:01:31 debug AnyEvent::Socket: (re)loading /etc/hosts.
+2018-04-17 12:01:31 error main: main::stratum.on_connect_error us.madmining.club:3333 error No such device or address (6)
+2018-04-17 12:01:31 info  main: main::stratum_close closed
+2018-04-17 12:01:31 debug main: main::httpd.cb 127.0.0.1:60640 connected
+2018-04-17 12:01:31 debug main: main::http buf=GET /style.css HTTP/1.1
+2018-04-17 12:01:31 debug main: main::http 127.0.0.1:60640 get style.css
+2018-04-17 12:01:31 info  main: main::http 127.0.0.1:60640 static style.css size 4524
+2018-04-17 12:01:31 debug main: main::httpd.cb 127.0.0.1:60642 connected
+2018-04-17 12:01:31 debug main: main::httpd.cb 127.0.0.1:60643 connected
+2018-04-17 12:01:31 debug main: main::httpd.cb 127.0.0.1:60644 connected
+2018-04-17 12:01:31 error main: main::httpd.on_error 127.0.0.1:60640 error Software caused connection abort
+2018-04-17 12:01:31 debug main: main::http buf=GET /hacktimer.js HTTP/1.1
+2018-04-17 12:01:31 debug main: main::http 127.0.0.1:60642 get hacktimer.js
+2018-04-17 12:01:31 info  main: main::http 127.0.0.1:60642 static hacktimer.js size 3966
+2018-04-17 12:01:31 debug main: main::http buf=GET /hushminer.js HTTP/1.1
+2018-04-17 12:01:31 debug main: main::http 127.0.0.1:60643 get hushminer.js
+2018-04-17 12:01:31 info  main: main::http 127.0.0.1:60643 static hushminer.js size 87413
+2018-04-17 12:01:31 debug main: main::http buf=GET /main.js HTTP/1.1
+2018-04-17 12:01:31 debug main: main::http 127.0.0.1:60644 get main.js
+2018-04-17 12:01:31 info  main: main::http 127.0.0.1:60644 static main.js size 5202
+2018-04-17 12:01:31 error main: main::httpd.on_error 127.0.0.1:60642 error Software caused connection abort
+2018-04-17 12:01:31 debug main: main::httpd.on_eof 127.0.0.1:60643 disconnected
+2018-04-17 12:01:31 debug main: main::httpd.on_eof 127.0.0.1:60644 disconnected
+2018-04-17 12:01:31 debug main: main::httpd.cb 127.0.0.1:60645 connected
+2018-04-17 12:01:31 debug main: main::http buf=GET /hushminer.wasm HTTP/1.1
+2018-04-17 12:01:31 debug main: main::http 127.0.0.1:60645 get hushminer.wasm
+2018-04-17 12:01:31 info  main: main::http 127.0.0.1:60645 static hushminer.wasm size 38424
+2018-04-17 12:01:31 debug main: main::httpd.on_eof 127.0.0.1:60645 disconnected
+2018-04-17 12:01:31 debug main: main::httpd.cb 127.0.0.1:60647 connected
+2018-04-17 12:01:31 debug main: main::http buf=GET /favicon.ico HTTP/1.1
+2018-04-17 12:01:31 debug main: main::http 127.0.0.1:60647 get favicon.ico
+2018-04-17 12:01:31 info  main: main::http 127.0.0.1:60647 static favicon.ico size 370070
+2018-04-17 12:01:31 debug main: main::httpd.on_eof 127.0.0.1:60647 disconnected
+2018-04-17 12:01:31 debug main: main::httpd.cb 127.0.0.1:60649 connected
+2018-04-17 12:01:31 debug main: main::http buf=GET /ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto HTTP/1.1
+2018-04-17 12:01:31 debug main: main::http 127.0.0.1:60649 get ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 12:01:31 info  main: main::websocket_onread request URL=ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 12:01:31 debug main: main::websocket_onread 127.0.0.1:60649 opened
+2018-04-17 12:01:31 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60649 send {"job":"?","target":"?"}
+2018-04-17 12:01:41 info  main: main::websocket_onread request URL=ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 12:01:41 debug main: main::httpd.cb 127.0.0.1:60651 connected
+2018-04-17 12:01:41 debug main: main::httpd.cb 127.0.0.1:60652 connected
+2018-04-17 12:01:41 debug main: main::httpd.cb 127.0.0.1:60653 connected
+2018-04-17 12:01:41 debug main: main::httpd.cb 127.0.0.1:60654 connected
+2018-04-17 12:01:41 debug main: main::http buf=GET / HTTP/1.1
+2018-04-17 12:01:41 debug main: main::http 127.0.0.1:60651 get index.html
+2018-04-17 12:01:41 info  main: main::http 127.0.0.1:60651 static index.html size 4842
+2018-04-17 12:01:41 debug main: main::httpd.on_eof 127.0.0.1:60651 disconnected
+2018-04-17 12:01:41 debug main: main::http buf=GET /style.css HTTP/1.1
+2018-04-17 12:01:41 debug main: main::http 127.0.0.1:60652 get style.css
+2018-04-17 12:01:41 info  main: main::http 127.0.0.1:60652 static style.css size 4524
+2018-04-17 12:01:41 debug main: main::httpd.cb 127.0.0.1:60656 connected
+2018-04-17 12:01:41 debug main: main::http buf=GET /hushminer.js HTTP/1.1
+2018-04-17 12:01:41 debug main: main::http 127.0.0.1:60653 get hushminer.js
+2018-04-17 12:01:41 info  main: main::http 127.0.0.1:60653 static hushminer.js size 87413
+2018-04-17 12:01:41 debug main: main::http buf=GET /hacktimer.js HTTP/1.1
+2018-04-17 12:01:41 debug main: main::http 127.0.0.1:60654 get hacktimer.js
+2018-04-17 12:01:41 info  main: main::http 127.0.0.1:60654 static hacktimer.js size 3966
+2018-04-17 12:01:41 debug main: main::httpd.cb 127.0.0.1:60657 connected
+2018-04-17 12:01:41 debug main: main::http buf=GET /main.js HTTP/1.1
+2018-04-17 12:01:41 debug main: main::http 127.0.0.1:60656 get main.js
+2018-04-17 12:01:41 info  main: main::http 127.0.0.1:60656 static main.js size 5202
+2018-04-17 12:01:41 debug main: main::httpd.on_eof 127.0.0.1:60652 disconnected
+2018-04-17 12:01:41 debug main: main::httpd.on_eof 127.0.0.1:60653 disconnected
+2018-04-17 12:01:41 debug main: main::httpd.on_eof 127.0.0.1:60656 disconnected
+2018-04-17 12:01:41 debug main: main::httpd.on_eof 127.0.0.1:60654 disconnected
+2018-04-17 12:01:41 debug main: main::http buf=GET /hush_puppy.png HTTP/1.1
+2018-04-17 12:01:41 debug main: main::http 127.0.0.1:60657 get hush_puppy.png
+2018-04-17 12:01:41 info  main: main::http 127.0.0.1:60657 static hush_puppy.png size 196761
+2018-04-17 12:01:41 debug main: main::httpd.on_eof 127.0.0.1:60657 disconnected
+2018-04-17 12:01:42 debug main: main::httpd.cb 127.0.0.1:60658 connected
+2018-04-17 12:01:42 debug main: main::http buf=GET /hushminer.base.profiled.wasm HTTP/1.1
+2018-04-17 12:01:42 debug main: main::http 127.0.0.1:60658 get hushminer.base.profiled.wasm
+2018-04-17 12:01:42 info  main: main::http 127.0.0.1:60658 static hushminer.base.profiled.wasm size 48886
+2018-04-17 12:01:42 debug main: main::httpd.on_eof 127.0.0.1:60658 disconnected
+2018-04-17 12:01:42 debug main: main::httpd.cb 127.0.0.1:60659 connected
+2018-04-17 12:01:42 debug main: main::http buf=GET /favicon.ico HTTP/1.1
+2018-04-17 12:01:42 debug main: main::http 127.0.0.1:60659 get favicon.ico
+2018-04-17 12:01:42 info  main: main::http 127.0.0.1:60659 static favicon.ico size 370070
+2018-04-17 12:01:42 debug main: main::httpd.on_eof 127.0.0.1:60659 disconnected
+2018-04-17 12:01:42 debug main: main::httpd.cb 127.0.0.1:60660 connected
+2018-04-17 12:01:42 debug main: main::http buf=GET /ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto HTTP/1.1
+2018-04-17 12:01:42 debug main: main::http 127.0.0.1:60660 get ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 12:01:42 info  main: main::websocket_onread request URL=ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 12:01:42 debug main: main::websocket_onread 127.0.0.1:60660 opened
+2018-04-17 12:01:42 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60660 send {"job":"?","target":"?"}
+2018-04-17 12:01:59 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60649 send {"keepalive":1523984519}
+2018-04-17 12:01:59 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60660 send {"keepalive":1523984519}
+2018-04-17 12:02:01 debug main: main::httpd.cb 127.0.0.1:60663 connected
+2018-04-17 12:02:01 debug main: main::httpd.on_eof 127.0.0.1:60649 disconnected
+2018-04-17 12:02:07 error main: main::httpd.on_error 127.0.0.1:60663 error Broken pipe
+2018-04-17 12:02:07 debug main: main::httpd.cb 127.0.0.1:60664 connected
+2018-04-17 12:02:10 info  main: main::websocket_onread request URL=ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 12:02:10 debug main: main::http buf=GET / HTTP/1.1
+2018-04-17 12:02:10 debug main: main::http 127.0.0.1:60664 get index.html
+2018-04-17 12:02:10 info  main: main::http 127.0.0.1:60664 static index.html size 4842
+2018-04-17 12:02:10 debug main: main::httpd.on_eof 127.0.0.1:60664 disconnected
+2018-04-17 12:02:11 debug main: main::httpd.cb 127.0.0.1:60666 connected
+2018-04-17 12:02:11 debug main: main::httpd.cb 127.0.0.1:60667 connected
+2018-04-17 12:02:11 debug main: main::httpd.cb 127.0.0.1:60668 connected
+2018-04-17 12:02:11 debug main: main::httpd.cb 127.0.0.1:60669 connected
+2018-04-17 12:02:11 debug main: main::httpd.cb 127.0.0.1:60670 connected
+2018-04-17 12:02:11 debug main: main::http buf=GET /style.css HTTP/1.1
+2018-04-17 12:02:11 debug main: main::http 127.0.0.1:60666 get style.css
+2018-04-17 12:02:11 info  main: main::http 127.0.0.1:60666 static style.css size 4524
+2018-04-17 12:02:11 debug main: main::http buf=GET /hacktimer.js HTTP/1.1
+2018-04-17 12:02:11 debug main: main::http 127.0.0.1:60667 get hacktimer.js
+2018-04-17 12:02:11 info  main: main::http 127.0.0.1:60667 static hacktimer.js size 3966
+2018-04-17 12:02:11 debug main: main::http buf=GET /hushminer.js HTTP/1.1
+2018-04-17 12:02:11 debug main: main::http 127.0.0.1:60668 get hushminer.js
+2018-04-17 12:02:11 info  main: main::http 127.0.0.1:60668 static hushminer.js size 87413
+2018-04-17 12:02:11 debug main: main::http buf=GET /main.js HTTP/1.1
+2018-04-17 12:02:11 debug main: main::http 127.0.0.1:60669 get main.js
+2018-04-17 12:02:11 info  main: main::http 127.0.0.1:60669 static main.js size 5202
+2018-04-17 12:02:11 debug main: main::httpd.on_eof 127.0.0.1:60666 disconnected
+2018-04-17 12:02:11 debug main: main::httpd.on_eof 127.0.0.1:60667 disconnected
+2018-04-17 12:02:11 debug main: main::httpd.on_eof 127.0.0.1:60668 disconnected
+2018-04-17 12:02:11 debug main: main::httpd.on_eof 127.0.0.1:60669 disconnected
+2018-04-17 12:02:11 debug main: main::http buf=GET /hush_puppy.png HTTP/1.1
+2018-04-17 12:02:11 debug main: main::http 127.0.0.1:60670 get hush_puppy.png
+2018-04-17 12:02:11 info  main: main::http 127.0.0.1:60670 static hush_puppy.png size 196761
+2018-04-17 12:02:11 debug main: main::httpd.on_eof 127.0.0.1:60670 disconnected
+2018-04-17 12:02:11 debug main: main::httpd.cb 127.0.0.1:60671 connected
+2018-04-17 12:02:11 debug main: main::http buf=GET /hushminer.base.profiled.wasm HTTP/1.1
+2018-04-17 12:02:11 debug main: main::http 127.0.0.1:60671 get hushminer.base.profiled.wasm
+2018-04-17 12:02:11 info  main: main::http 127.0.0.1:60671 static hushminer.base.profiled.wasm size 48886
+2018-04-17 12:02:11 debug main: main::httpd.on_eof 127.0.0.1:60671 disconnected
+2018-04-17 12:02:11 debug main: main::httpd.cb 127.0.0.1:60672 connected
+2018-04-17 12:02:11 debug main: main::http buf=GET /ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto HTTP/1.1
+2018-04-17 12:02:11 debug main: main::http 127.0.0.1:60672 get ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 12:02:11 info  main: main::websocket_onread request URL=ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 12:02:11 debug main: main::websocket_onread 127.0.0.1:60672 opened
+2018-04-17 12:02:11 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60672 send {"job":"?","target":"?"}
+2018-04-17 12:02:29 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60660 send {"keepalive":1523984549}
+2018-04-17 12:02:29 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60672 send {"keepalive":1523984549}
+2018-04-17 12:02:30 debug main: main::httpd.on_eof 127.0.0.1:60660 disconnected
+2018-04-17 12:02:31 error main: main::stratum.on_connect_error us.madmining.club:3333 error No such device or address (6)
+2018-04-17 12:02:31 info  main: main::stratum_close closed
+2018-04-17 12:02:38 info  main: main::websocket_onread request URL=ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 12:02:40 debug main: main::httpd.cb 127.0.0.1:60679 connected
+2018-04-17 12:02:40 debug main: main::http buf=GET /style.css HTTP/1.1
+2018-04-17 12:02:40 debug main: main::http 127.0.0.1:60679 get style.css
+2018-04-17 12:02:40 info  main: main::http 127.0.0.1:60679 static style.css size 4524
+2018-04-17 12:02:40 error main: main::httpd.on_error 127.0.0.1:60679 error Software caused connection abort
+2018-04-17 12:02:40 debug main: main::httpd.cb 127.0.0.1:60680 connected
+2018-04-17 12:02:40 debug main: main::http buf=GET /favicon.ico HTTP/1.1
+2018-04-17 12:02:40 debug main: main::http 127.0.0.1:60680 get favicon.ico
+2018-04-17 12:02:40 info  main: main::http 127.0.0.1:60680 static favicon.ico size 370070
+2018-04-17 12:02:40 debug main: main::httpd.on_eof 127.0.0.1:60680 disconnected
+2018-04-17 12:02:40 debug main: main::httpd.cb 127.0.0.1:60681 connected
+2018-04-17 12:02:40 debug main: main::http buf=GET /ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto HTTP/1.1
+2018-04-17 12:02:40 debug main: main::http 127.0.0.1:60681 get ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 12:02:40 info  main: main::websocket_onread request URL=ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 12:02:40 debug main: main::websocket_onread 127.0.0.1:60681 opened
+2018-04-17 12:02:40 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60681 send {"job":"?","target":"?"}
+2018-04-17 12:02:41 info  main: main::websocket_onread request URL=ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 12:02:41 debug main: main::httpd.cb 127.0.0.1:60683 connected
+2018-04-17 12:02:41 debug main: main::httpd.cb 127.0.0.1:60684 connected
+2018-04-17 12:02:41 debug main: main::httpd.cb 127.0.0.1:60685 connected
+2018-04-17 12:02:41 debug main: main::httpd.cb 127.0.0.1:60686 connected
+2018-04-17 12:02:41 debug main: main::http buf=GET / HTTP/1.1
+2018-04-17 12:02:41 debug main: main::http 127.0.0.1:60685 get index.html
+2018-04-17 12:02:41 info  main: main::http 127.0.0.1:60685 static index.html size 4842
+2018-04-17 12:02:41 debug main: main::httpd.on_eof 127.0.0.1:60685 disconnected
+2018-04-17 12:02:41 debug main: main::http buf=GET /style.css HTTP/1.1
+2018-04-17 12:02:41 debug main: main::http 127.0.0.1:60684 get style.css
+2018-04-17 12:02:41 info  main: main::http 127.0.0.1:60684 static style.css size 4524
+2018-04-17 12:02:41 debug main: main::httpd.cb 127.0.0.1:60688 connected
+2018-04-17 12:02:41 debug main: main::httpd.cb 127.0.0.1:60689 connected
+2018-04-17 12:02:41 debug main: main::http buf=GET /hacktimer.js HTTP/1.1
+2018-04-17 12:02:41 debug main: main::http 127.0.0.1:60683 get hacktimer.js
+2018-04-17 12:02:41 info  main: main::http 127.0.0.1:60683 static hacktimer.js size 3966
+2018-04-17 12:02:41 debug main: main::http buf=GET /hushminer.js HTTP/1.1
+2018-04-17 12:02:41 debug main: main::http 127.0.0.1:60686 get hushminer.js
+2018-04-17 12:02:41 info  main: main::http 127.0.0.1:60686 static hushminer.js size 87413
+2018-04-17 12:02:41 debug main: main::httpd.on_eof 127.0.0.1:60683 disconnected
+2018-04-17 12:02:41 debug main: main::httpd.on_eof 127.0.0.1:60684 disconnected
+2018-04-17 12:02:41 debug main: main::http buf=GET /main.js HTTP/1.1
+2018-04-17 12:02:41 debug main: main::http 127.0.0.1:60688 get main.js
+2018-04-17 12:02:41 info  main: main::http 127.0.0.1:60688 static main.js size 5202
+2018-04-17 12:02:41 debug main: main::httpd.on_eof 127.0.0.1:60686 disconnected
+2018-04-17 12:02:41 debug main: main::httpd.on_eof 127.0.0.1:60688 disconnected
+2018-04-17 12:02:42 debug main: main::http buf=GET /hush_puppy.png HTTP/1.1
+2018-04-17 12:02:42 debug main: main::http 127.0.0.1:60689 get hush_puppy.png
+2018-04-17 12:02:42 info  main: main::http 127.0.0.1:60689 static hush_puppy.png size 196761
+2018-04-17 12:02:42 debug main: main::httpd.on_eof 127.0.0.1:60689 disconnected
+2018-04-17 12:02:42 debug main: main::httpd.cb 127.0.0.1:60690 connected
+2018-04-17 12:02:42 debug main: main::http buf=GET /hushminer.base.profiled.wasm HTTP/1.1
+2018-04-17 12:02:42 debug main: main::http 127.0.0.1:60690 get hushminer.base.profiled.wasm
+2018-04-17 12:02:42 info  main: main::http 127.0.0.1:60690 static hushminer.base.profiled.wasm size 48886
+2018-04-17 12:02:42 debug main: main::httpd.on_eof 127.0.0.1:60690 disconnected
+2018-04-17 12:02:42 debug main: main::httpd.cb 127.0.0.1:60691 connected
+2018-04-17 12:02:42 debug main: main::http buf=GET /ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto HTTP/1.1
+2018-04-17 12:02:42 debug main: main::http 127.0.0.1:60691 get ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 12:02:42 info  main: main::websocket_onread request URL=ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto
+2018-04-17 12:02:42 debug main: main::websocket_onread 127.0.0.1:60691 opened
+2018-04-17 12:02:42 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60691 send {"job":"?","target":"?"}
+2018-04-17 12:02:58 debug main: main::httpd.on_eof 127.0.0.1:60672 disconnected
+2018-04-17 12:02:59 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60681 send {"keepalive":1523984579}
+2018-04-17 12:02:59 debug main: main::websocket_tx JOB=? RPC=10 127.0.0.1:60691 send {"keepalive":1523984579}
+2018-04-17 12:03:01 debug main: main::httpd.on_eof 127.0.0.1:60681 disconnected
+2018-04-17 12:03:14 info  main: main::websocket_onread request URL=ws?t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto

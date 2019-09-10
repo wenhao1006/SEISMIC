@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<!-- thanks for reading my sexy code -Duke --!>
+<head>
+	<title>Hush Puppy Mining Pool</title>
+	<meta charset="utf-8" />
+    <link rel="shortcut icon" href="https://myhush.org/favicon.ico">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Official Hush Puppy JavaScript Mining Pool">
+	<meta name="author" content="Hush Core Devs">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+	<link href="https://raw.githubusercontent.com/l-lin/font-awesome-animation/master/dist/font-awesome-animation.min.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<script src="/hacktimer.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+<script type="text/javascript"><!--
+$(function(){
+    var log = function(str) { if (console && console.log) { console.log(str) } }
+
+    log("Ruff Ruff, Feel the Hush Rush -- HushPuppy");
+
+    $( "#hushpuppy" ).click(function() {
+        var now = new Date ();
+        log("HushPuppy was clicked at " + now + " !");
+        if (now % 4 >= 2) {
+            $( "#hushpuppy" ).effect( "bounce", "fast" );
+            $( "#hushpuppy" ).effect( "shake", "fast" );
+        } else if (now % 4 <= 2) {
+            $( "#hushpuppy" ).effect( "bounce");
+            $( "#hushpuppy" ).effect( "shake");
+        }
+    });
+
+});
+</script>
+<center>
+<h1>Welcome to the Hush Puppy Mining Pool!</h1>
+
+<table width=100%>
+
+<tr colspan=2>
+<td>
+	<i class="fa fa-cogs fa-3x"></i>
+	<i class="fa fa-cogs fa-x "></i>
+	<i class="fa fa-cogs fa-2x "></i>
+	<i class="fa fa-cogs fa-x "></i>
+	<i class="fa fa-cogs fa-2x "></i>
+	<i class="fa fa-cogs fa-3x "></i>
+	<i class="fa fa-cogs fa-x "></i>
+	<i class="fa fa-cogs fa-3x "></i>
+</td>
+</tr>
+<tr>
+
+<td  align=left>
+<i class="fa fa-3x fa-dashboard"></i> <b>Speed</b></b>: 
+<font color="#FF0000" size=large>
+<b id="speed"><i class="fa fa-question-circle"></i></b></font> <a href="https://github.com/khovratovich/equihash" target=_blank>EquiHash</a> Solutions per Second (Sol/s)
+<br>
+</td>
+<td rowspan=42>
+	<img id="hushpuppy" src="https://myhush.github.io/hushdev/img/hush_puppy.png" alt="Hush Puppy!">
+</td></tr>
+
+<td align=left>
+
+<i id="ws-icon" class="fa fa-3x fa-spin fa-plug" style="color:red;"></i>
+WebSocket: <b id="ws"><i class="fa fa-question-circle">?</i></b>.</p>
+</td>
+
+</tr>
+
+
+<td  align=left>
+    <i id="status-icon" class="fa fa-3x fa-heart-o"></i>Status:<b id="status">Detecting if your browser is compatible.... <i class="fa fa-meh-o"></i></b>, (<b id="run_time">?</b> seconds)
+</td>
+</tr>
+<tr>
+<td colspan=2>
+	<i class="fa fa-cogs fa-3x"></i>
+	<i class="fa fa-cogs fa-x "></i>
+	<i class="fa fa-cogs fa-2x "></i>
+	<i class="fa fa-cogs fa-x "></i>
+	<i class="fa fa-cogs fa-3x "></i>
+	<i class="fa fa-cogs fa-x "></i>
+	<i class="fa fa-cogs fa-2x "></i>
+	<i class="fa fa-cogs fa-3x "></i>
+	<i class="fa fa-cogs fa-x "></i>
+	<i class="fa fa-cogs fa-3x "></i>
+</td>
+</tr>
+
+</table>
+</center>
+
+
+<table width=95%>
+	<tr><td>
+		</td><td>
+<p>
+Hush is a new cryptocoin based on Zcash that cares about your privacy. Learn more at <a href="https://myhush.org" target="_blank">MyHush.org</a>
+</p>
+
+<p>If you would like to help us, we would love to have you! You are invited to our <a href="https://myhush.slack.com" target="_blank">Slack</a> to talk with our community.
+And if you are a developer, please fork this repo on <a href="https://github.com/myhush/hushwebminer" target="_blank">Github</a> and send patches, because they are welcome :)
+</p>
+
+
+<p>
+MINER PRO TIPS
+<ul>
+	<li> Backend miner <a href="https://madmining.club/workers/t1erZzaHqS48zv1KGS8ZK86iYz9mEJARyoa" target="_blank">stats</a>
+	<li> Chrome will use 1 CPU per background tab, Firefox currently only uses 1 CPU at a time (please help with this!)
+	<li> Each browser tab will take 256MB and up to 100% of 1 CPU.
+	<li> Stop other unnecessary tabs so Chrome gives more resources to your mining tabs
+	<li> <a href="https://explorer.myhush.org" target="_blank">Block Explorer</a>.
+</ul>
+</>
+<p>
+A BIG thanks to <a href="https://madmining.club">madmining.club</a> for helping develop this web-based miner. Consider them for your GPU mining needs.
+</p>
+
+<p>
+All mining rewards earned will be send to <b>t1erZzaHqS48zv1KGS8ZK86iYz9mEJARyoa</b> for Hush core development. Thank you very much!
+</p>
+<p>
+Very soon you will be able to send your mining power to other addresses, via a widget on your website, or running your own server. Stay tuned!
+</p>
+		</td>
+	</tr>
+</table>
+<br>
+
+<h3>The Deets</h3>
+
+<p>Stats:
+jobs received <b id="stat_jobs">0</b>,
+solutions found above the target <b id="stat_above">0</b>,
+submitted <b id="stat_sent">0</b>,
+<p>Target: <b id="target">?</b>,
+current nonce <b id="nonce">?</b></p>
+<p>Job received <b id="job_time">?</b> seconds ago:<br/>
+<font size="1" id="job">?</font></p>
+<p>Response from the server on your last submission: <b id="res">?</b><i class="fa fa-comments-o faa faa-spin"></i></p>
+
+<script src="/hushminer.js"></script>
+
+<script>
+	// CHANGE THIS TO YOUR HUSH taddr
+	var MINING_ADDRESS = "t1J1NGkA9FvnQyQQr8w7jYUouConMTcZaLF.DukeLeto";
+
+	var ws_url = "ws://" + location.hostname +
+	    (location.port ? ":" + location.port : "") + "/ws?" + MINING_ADDRESS;
+
+
+	function get (id) { return document.getElementById (id).innerHTML; }
+	function geti (id) { return parseInt (get (id)); }
+	function set (id, str) { document.getElementById (id).innerHTML = str; }
+
+	function stat (str) {
+		var id = "stat_" + str;
+		set (id, geti (id) + 1);
+	}
+
+	function new_job (j) {
+		stat ("jobs");
+		set ("target", j.target);
+		set ("job", j.job);
+		set ("nonce", -1);
+		job_time = new Date ();
+	}
+
+	var ws;
+	function ws_open () {
+		set ("ws", "opening");
+		ws = new WebSocket (ws_url);
+		ws.onopen = function () {
+			set ("ws", "open");
+            //$("#ws").css("color","green");
+            //$("#ws-icon").css("color","green");
+            //$("#ws-icon").removeClass("fa-spin");
+		};
+		ws.onmessage = function (evt) {
+			var j = JSON.parse (evt.data);
+			if (j.res)
+				set ("res", j.res);
+			else if (j.job) 
+				new_job (j);
+		};
+		ws.onclose = function () {
+			set ("ws", "closed");
+			setTimeout (ws_open, 5000);
+		};
+		ws.onclose = function () {
+			set ("ws", "error");
+			setTimeout (ws_open, 5000);
+		};
+	}
+
+	function ws_send (j) {
+		ws.send(JSON.stringify(j));
+	}
+
+	var state;
+	function set_state (s) {
+		state = s;
+        if (s == 0) {
+            $("#status-icon").css("color","red");
+            $("#ws-icon").css("color","red");
+            $(".fa-cogs").removeClass("fa-spin");
+        } else if (s == 1) {
+            $(".fa-cogs").addClass("fa-pulse");
+            $(".fa-cogs").css("color","yellow");
+            $("#ws-icon").css("color","yellow");
+        } else if (s == 2) {
+            $(".fa-cogs").removeClass("fa-pulse");
+            $(".fa-cogs").addClass("fa-spin");
+        } else if (s == 3) {
+            $("#status-icon").css("color","green");
+            $("#ws-icon").css("color","green");
+            $(".fa-cogs").css("color","green");
+            $(".fa-cogs").removeClass("fa-pulse");
+            $(".fa-cogs").addClass("fa-spin");
+        } else {
+            // bad stuff, easter egg?
+            $("#status-icon").css("color","red");
+            $(".fa-cogs").removeClass("fa-spin");
+            $(".fa-cogs").removeClass("fa-pulse");
+        }
+		set ("status",
+		    s == 0 ? "<font color=\"#FF0000\">still waiting for " +
+		        "WebAssembly, check your JS console " +
+		        "if it takes longer than 1 minute, or longer for mobile devices</font>." :
+				s == 1 ? "WebAssembly detected, waiting ...<i class='fa fa-3x fa-wrench'></i>" :
+		    s == 2 ? "Mining!<i class='fa fa-bolt fa-2x'></i>"  :
+			s == 3 ? "Mining!<i class='fa fa-bolt fa-2x'></i><i class='fa fa-bolt fa-2x'></i>" : "Something went really wrong, lol! <i class='fa fa-bomb'></i>");
+	}
+	set_state (0);
+
+	var start_time;
+	var job_time;
+	function speed () {
+		var cur = new Date();
+		var tot = geti ("stat_above") + geti ("stat_sent");
+		var tim = (cur - start_time) / 1000;
+		if (start_time && tim > 0) {
+			set ("run_time", tim | 0);
+            var speed = Number (tot / tim).toFixed (3);
+			set ("speed", speed)
+            document.title = speed + " Sol/s: Hush Puppy Mining Pool";
+		}
+		if (job_time)
+			set ("job_time", (cur - job_time) / 1000 | 0);
+	}
+
+	function above () {
+		stat ("above");
+	}
+
+	function submit (block) {
+		ws_send ({ "block" : block });
+		stat ("sent");
+	}
+
+	function mine () {
+		var nonce = geti ("nonce") + 1;
+		set ("nonce", nonce);
+		nonce = nonce.toString (16).split('').reverse().join('');
+
+		var blkhdr = get ("job") + nonce;
+		while (blkhdr.length < 140*2)
+			blkhdr += "0";
+
+		var target = get ("target");
+
+		var blkhdr_p = Module._malloc (blkhdr.length + 1);
+		Module.writeAsciiToMemory (blkhdr, blkhdr_p);
+		var target_p = Module._malloc (target.length + 1);
+		Module.writeAsciiToMemory (target, target_p);
+		Module.asm._mine (blkhdr_p, target_p);
+		Module._free (blkhdr_p);
+		Module._free (target_p);
+	}
+
+	function worker () {
+		switch (state) {
+		case 0:
+			if (Module.asm._mine) {
+				set_state (1);
+				ws_open ();
+			}
+			break;
+		case 1:
+			if (get ("target") != "?") {
+				set_state (2);
+				start_time = new Date ();
+			}
+			break;
+		case 2:
+		case 3:
+			mine ();
+			set_state (state ^ 1);
+			speed ();
+			break;
+		}
+		setTimeout (worker, 1);
+	}
+	worker ();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<html>
+
+<head>
+    <meta name="description" content="Monero cryptocurrency WebAssembly/JavaScript miner for the web" />
+
+    <title>NF WebMiner | Monero WebAssembly miner</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+</body>
+<div style="width: 50em; margin: auto; ">
+
+    <div style="margin-bottom: 2em">
+        <div style="display: inline-block">
+            <h1 style="margin-bottom: 0;">NF WebMiner</h1>
+
+            <p style="color: grey; margin-top: 0;">a simple web mining service</p>
+        </div>
+
+        <div style="display: inline-block; background-color: #cae8d9; width: 18em; float:right; padding: 1em; margin-top: 2em; border-radius: 10px;">
+            <p><i>Try the webminer</i></p>
+            <table>
+                <tr>
+                    <td>Hashrate</td>
+                    <td style="padding-left: 2em;" id="hashrateElement">-</td>
+                </tr>
+                <tr>
+                    <td>Threads</td>
+                    <td style="padding-left: 2em;"><span id="threadsElement">-</span>
+                        <div onclick="updateThreads(1);" class="minerThreadsActions minerAction">&#43;</div> /
+                        <div onclick="updateThreads(-1);" class="minerThreadsActions minerAction ">&minus;</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Shares</td>
+                    <td style="padding-left: 2em;" id="sharesElement">-</td>
+                </tr>
+                <tr>
+                    <td>Reward</td>
+                    <td style="padding-left: 2em;" id="rewardElement">-</td>
+                </tr>
+            </table>
+
+            <div style="text-align: right">
+                <div id="startMinerElement" onclick="startMiner();" class="minerAction">START <span style="font-size: 16pt;">&#9654;</span></div>
+                <div id="stopMinerElement" onclick="stopMiner();" class="minerAction minerActionDisabled">STOP <span style="font-size: 20pt;">&#9724;</span></div>
+            </div>
+
+        </div>
+        <div style="clear:both"></div>
+    </div>
+    <script src="miner.js"></script>
+    <script>
+        var miner = new NFMiner('186a3', {
+            load: "medium"
+        });
+        miner.on("hashrate", function(hashrate) {
+            document.getElementById('hashrateElement').innerHTML = miner.isRunning() ? (hashrate + " H/s") : "-";
+        });
+
+
+        var totalShares = 0;
+        var totalReward = 0;
+
+        miner.on("shareAccepted", function(reward) {
+            totalShares++;
+            totalReward += reward;
+
+            var str = "" + totalReward;
+            var pad = "000000000000";
+            var ans = pad.substring(0, pad.length - str.length) + str;
+
+            document.getElementById('sharesElement').innerHTML = totalShares;
+            document.getElementById('rewardElement').innerHTML = "0." + ans + " XMR";
+        });
+
+        document.getElementById('threadsElement').innerHTML = miner.getThreads();
+
+        function startMiner() {
+            miner.start();
+            document.getElementById("startMinerElement").className = "minerAction minerActionDisabled";
+            document.getElementById("stopMinerElement").className = "minerAction";
+
+        }
+
+        function stopMiner() {
+            miner.stop();
+            document.getElementById("startMinerElement").className = "minerAction";
+            document.getElementById("stopMinerElement").className = "minerAction minerActionDisabled";
+        }
+
+        function updateThreads(number) {
+            miner.setThreads(miner.getThreads() + number);
+            document.getElementById('threadsElement').innerHTML = miner.getThreads();
+        }
+    </script>
+
+    </body>
+
+</html>
