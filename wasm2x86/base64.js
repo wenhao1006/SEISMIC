@@ -1,0 +1,90 @@
+function base64EncodeBytes(bytes) {
+  var base64 = '';
+  var encodings = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+
+  var byteLength = bytes.byteLength;
+  var byteRemainder = byteLength % 3;
+  var mainLength = byteLength - byteRemainder;
+
+  var a, b, c, d;
+  var chunk;
+
+  // Main loop deals with bytes in chunks of 3
+  for (var i = 0; i < mainLength; i = i + 3) {
+    // Combine the three bytes into a single integer
+    chunk = (bytes[i] << 16) | (bytes[i + 1] << 8) | bytes[i + 2];
+
+    // Use bitmasks to extract 6-bit segments from the triplet
+    a = (chunk & 16515072) >> 18; // 16515072 = (2^6 - 1) << 18
+    b = (chunk & 258048) >> 12; // 258048 = (2^6 - 1) << 12
+    c = (chunk & 4032) >> 6; // 4032 = (2^6 - 1) << 6
+    d = chunk & 63; // 63 = 2^6 - 1
+
+    // Convert the raw binary segments to the appropriate ASCII encoding
+    base64 += encodings[a] + encodings[b] + encodings[c] + encodings[d];
+  }
+
+  // Deal with the remaining bytes and padding
+  if (byteRemainder == 1) {
+    chunk = bytes[mainLength];
+
+    a = (chunk & 252) >> 2; // 252 = (2^6 - 1) << 2
+
+    // Set the 4 least significant bits to zero
+    b = (chunk & 3) << 4; // 3 = 2^2 - 1
+
+    base64 += encodings[a] + encodings[b] + '==';
+  } else if (byteRemainder == 2) {
+    chunk = (bytes[mainLength] << 8) | bytes[mainLength + 1];
+
+    a = (chunk & 64512) >> 10; // 64512 = (2^6 - 1) << 10
+    b = (chunk & 1008) >> 4; // 1008 = (2^6 - 1) << 4
+
+    // Set the 2 least significant bits to zero
+    c = (chunk & 15) << 2; // 15 = 2^4 - 1
+
+    base64 += encodings[a] + encodings[b] + encodings[c] + '=';
+  }
+  return base64;
+}
+
+var base64DecodeMap = [
+    62, 0, 0, 0, 63, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61,
+    0, 0, 0, 0, 0, 0, 0,
+    0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+    19, 20, 21, 22, 23, 24, 25, 0, 0, 0, 0, 0, 0,
+    26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43,
+    44, 45, 46, 47, 48, 49, 50, 51
+];
+
+var base64DecodeMapOffset = 0x2B;
+var base64EOF = 0x3D;
+
+function decodeRestrictedBase64ToBytes(encoded) {
+    var ch;
+    var code;
+    var code2;
+    var len = encoded.length;
+    var padding = encoded.charAt(len - 2) === '=' ? 2 : encoded.charAt(len - 1) === '=' ? 1 : 0;
+    var decoded = new Uint8Array((encoded.length >> 2) * 3 - padding);
+    for (var i = 0, j = 0; i < encoded.length;) {
+        ch = encoded.charCodeAt(i++);
+        code = base64DecodeMap[ch - base64DecodeMapOffset];
+        ch = encoded.charCodeAt(i++);
+        code2 = base64DecodeMap[ch - base64DecodeMapOffset];
+        decoded[j++] = (code << 2) | ((code2 & 0x30) >> 4);
+        ch = encoded.charCodeAt(i++);
+        if (ch == base64EOF) {
+            return decoded;
+        }
+        code = base64DecodeMap[ch - base64DecodeMapOffset];
+        decoded[j++] = ((code2 & 0x0f) << 4) | ((code & 0x3c) >> 2);
+        ch = encoded.charCodeAt(i++);
+        if (ch == base64EOF) {
+            return decoded;
+        }
+        code2 = base64DecodeMap[ch - base64DecodeMapOffset];
+        decoded[j++] = ((code & 0x03) << 6) | code2;
+    }
+    return decoded;
+}

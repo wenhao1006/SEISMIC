@@ -1,0 +1,176 @@
+#wmp-container{
+    height: 200px;
+    width: 450px;
+    background: #1000ff8f;
+    color: white;
+    font-family: Helvetica;
+    text-align: center;
+    clear: both;
+    font-weight: bold;
+}
+#wmp-left{
+    height: 67%;
+    width: 60%;
+    float: left;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+#wmp-right{
+    height: 67%;
+    float: right;
+    width: 17%;
+    margin: 0 18% 0 0;
+    /*padding: 0px 60px 0 0px;*/
+}
+#wmp-right span:first-child{
+    margin: 10px 0 0 0;
+}
+#wmp-hashes-s{
+    display: block;
+    margin: 40px 0 0 0;
+}
+#wmp-threads, #wmp-throttle{
+    margin: 0 5px;
+}
+#wmp-bottom{
+    clear: both;
+    height: 33%;
+    width: 100%;
+}
+
+.wmp-left-block{
+    height: 30px;
+    margin: 10px 0 0 0;
+}
+.wmp-left-block h3, .wmp-left-block p{
+    font-size: 16px !important;
+    line-height: 16px !important;
+    font-weight: bold !important;
+}
+.wmp-left-block h3{
+    margin: 0 0 3px 0 !important;
+}
+ .wmp-left-block p{
+    display: block;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 16px;
+ }
+.wmp-controls{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0;
+}
+.wmp-controls:hover{
+    color: #fff;
+    background: #ffffff26;
+    text-decoration: none;
+    cursor: pointer;
+}
+#wmp-bottom .wmp-controls{
+    margin: 0 0 0 60px;
+    font-size: 15px !important;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 15px;
+    padding: 15px 45px;
+    float: left;
+    display: block;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+#wmp-captcha{
+    width: 305px;
+    height: 80px;
+    background: #F5F5F5;
+    border: 1px solid #e6e3e3;
+}
+#wmp-captcha div{
+    display: inline-block;
+}
+#wmp-captcha #wmp-accepted{
+    height: 53px;
+    width: 65px;
+    display: none;
+    text-align: center;
+}
+#wmp-captcha #wmp-checkbox{
+    border: 3px dashed #7e68d4;
+    padding: 13px;
+    margin: 25px 0 -4px 25px;
+    cursor: pointer;
+}
+#wmp-captcha #wmp-accepted svg{
+    margin: 0px 0 0 15px;
+}
+#wmp-captcha #wmp-loader-container{
+    width: 65px;
+}
+#wmp-captcha #wmp-loader {
+    display: none;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    border: 7px solid #FFF;
+    border-radius: 50%;
+    border-top: 7px solid #826ECA;
+    width: 39px;
+    height: 39px;
+    -webkit-animation: spin 2s linear infinite; 
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+#wmp-captcha .wmp-check {
+  fill: none;
+  stroke: #826ECA;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-dasharray: 180;
+  stroke-dashoffset: 180;
+  -webkit-animation: draw 2s forwards;
+  animation: draw 2s forwards;
+}
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#wmp-captcha #wmp-text{
+    width: 160px;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+}
+#wmp-captcha #wmp-logo{
+    width: 65px;
+    text-align: center;
+    float: right;
+    margin: 17px 7px 0 0;
+}
+#wmp-captcha p{
+    margin: 0;
+    text-align: right;
+    font-size: 10px;
+    font-family: cursive;
+    line-height: 5px;
+}
+#wmp-captcha p a{
+    text-decoration: none;
+    color: #7e68d4;
+}
+#wmp-logo img{
+}
